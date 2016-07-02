@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "postgres",
+    "password": "",
+    "host": "db",
+    "database": "postgres",
+    "schema": "public"
+  },
+  "test": {
+    "driver": "pg",
+    "user": "postgres",
+    "password": "",
+    "host": "db",
+    "database": "postgres",
+    "schema": "public"
+  },
+  "sql-file" : true
+}

@@ -1,0 +1,54 @@
+{
+  "name": "subscripshare-api",
+  "version": "1.0.0",
+  "description": "Subscripshare",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cRicateau/subscripshare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cRicateau/subscripshare/issues"
+  },
+  "engines": {
+    "node": "5.0.0"
+  },
+  "scripts": {
+    "start": "sleep 2 && npm run migrate:up && node src/server/server.js",
+    "pretest": "eslint .",
+    "posttest": "nsp check",
+    "watch": "npm run migrate:up && node ./node_modules/nodemon/bin/nodemon.js src/server/server.js",
+    "test": "sleep 30 && db-migrate --config migrations/database.json reset -e test && db-migrate up --config migrations/database.json -e test; mocha \"test/**/*.test.js\"",
+    "migrate:up": "db-migrate up --config migrations/database.json"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^1.3.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.4.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^1.0.1",
+    "loopback": "^3.0.0-alpha.1",
+    "bluebird": "3.3.5",
+    "db-migrate": "0.10.0-beta.11",
+    "db-migrate-pg": "0.1.9",
+    "http-error": "0.0.6",
+    "jwt-simple": "0.5.0",
+    "lodash": "4.11.1",
+    "loopback-connector-postgresql": "2.4.1",
+    "moment": "2.13.0",
+    "nodemailer": "2.4.2",
+    "supertest": "1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "nsp": "^2.1.0",
+    "chai": "3.5.0",
+    "sinon": "1.17.4",
+    "jade": "1.3.x",
+    "mocha": "2.4.5",
+    "nodemon": "1.9.1",
+    "run-sequence": "0.3.x",
+    "webdriver-manager": "0.0.4"
+  }
+}
