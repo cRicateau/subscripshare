@@ -12,6 +12,7 @@ const USER_LOGIN_SUCCESS = 'AppState/USER_LOGIN_SUCCESS';
 const USER_LOGIN_ERROR = 'AppState/USER_LOGIN_ERROR';
 
 export function onUserLoginSuccess(profile, token) {
+  console.log('profile', profile)
   return {
     type: USER_LOGIN_SUCCESS,
     payload: {
@@ -22,6 +23,7 @@ export function onUserLoginSuccess(profile, token) {
 }
 
 export function onUserLoginError(error) {
+  console.log('error', error)
   return {
     type: USER_LOGIN_ERROR,
     payload: error,

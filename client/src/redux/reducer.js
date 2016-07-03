@@ -3,6 +3,7 @@ import {combineReducers} from 'redux-loop';
 import NavigationStateReducer from '../modules/navigation/NavigationState';
 import AuthStateReducer from '../modules/auth/AuthState';
 import CounterStateReducer from '../modules/counter/CounterState';
+import SubscriptionStateReducer from '../modules/subscriptions/SubscriptionState';
 import SessionStateReducer, {RESET_STATE} from '../modules/session/SessionState';
 
 const reducers = {
@@ -16,8 +17,9 @@ const reducers = {
   //`navigationState`
   navigationState: NavigationStateReducer,
 
-  session: SessionStateReducer
+  session: SessionStateReducer,
 
+  subscriptions: SubscriptionStateReducer
 };
 
 // initial state, accessor and mutator for supporting root-level

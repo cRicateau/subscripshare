@@ -43,8 +43,9 @@ export function showLogin() {
       A0ThemeCredentialBoxBorderColor: '' //transparent
     });
   }
-
+  console.log("before show");
   lock.show(options, (err, profile, token) => {
+    console.log('err', err, 'profile', profile, 'token', token);
     if (err) {
       store.dispatch(AuthStateActions.onUserLoginError(err));
       return;
