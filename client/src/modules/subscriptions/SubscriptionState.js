@@ -19,10 +19,10 @@ export function requestSubsriptions() {
   };
 }
 
-function receiveSubscriptions(json) {
+function receiveSubscriptions(payload) {
   return {
     type: RECEIVE_SUBSCRIPTIONS_SUCCESS,
-    payload: json.data.children.map(child => child.data)
+    payload: payload
   };
 }
 
@@ -34,11 +34,8 @@ function receiveSubscriptionsFailure() {
 
 export function fetchSubscriptions() {
   return fetch('http://0.0.0.0:8000/api/subscriptions')
-    .then(response => {
-      console.log('response', JSON.parse(response._bodyInit));
-      return response.json();
-    })
-    .then(json => receiveSubscriptions(json))
+    .then(response => response.json())
+    .then(receiveSubscriptions)
     .catch(receiveSubscriptionsFailure);
 }
 
