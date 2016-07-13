@@ -26,17 +26,25 @@ const SubscriptionView = React.createClass({
     dispatch(SubscriptionState.requestSubsriptions())
   },
 
-  _onPressButton(item) {
-    this.props.dispatch(SubscriptionState.goToItem(item));
+  _selectItem(item) {
+    this.props.dispatch(SubscriptionState.selectItem(item));
     this.props.dispatch(NavigationState.pushRoute({key: 'SubscriptionItem'}));
   },
 
   render() {
     let displayedItems = this.props.items.map((item) => {
+      if (!item.id) {
+        return;
+      }
       return (
         <View key={item.id}>
-          <TouchableHighlight onPress={() => this._onPressButton(item)}>
-            <Text style={styles.items}>{item.name}</Text>
+          <TouchableHighlight
+            onPress={() => this._selectItem(item)}
+          >
+            <View style={styles.item}>
+              <Text style={styles.title}>{item.name}</Text>
+              <Text style={styles.description}>{item.description}</Text>
+            </View>
           </TouchableHighlight>
         </View>
       );
@@ -44,31 +52,45 @@ const SubscriptionView = React.createClass({
 
     return (
       <ScrollView>
-        <View style={styles.container}>
-          {
-            !this.props.isFetching &&
-            displayedItems
-          }
-        </View>
-        <View style={styles.spinnerContainer}>
-          <Spinner
-            style={styles.spinner}
-            isVisible={this.props.isFetching}
-            type='Bounce'
-          />
-        </View>
+        {
+          !this.props.isFetching &&
+          <View style={styles.itemsContainer}>{displayedItems}</View>
+        }
+        {
+          this.props.isFetching &&
+          <View style={styles.spinnerContainer}>
+            <Spinner
+              style={styles.spinner}
+              isVisible={this.props.isFetching}
+              type='Bounce'
+            />
+          </View>
+        }
       </ScrollView>
     );
   }
 });
 
 const styles = StyleSheet.create({
-  container: {
+  itemsContainer: {
     flex: 1,
-    marginTop: 50
+    marginTop: 64,
+    backgroundColor: 'white',
+    flexDirection: 'column'
   },
-  items: {
-    marginTop: 30
+  item: {
+    flex: 1,
+    borderBottomWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 90
+  },
+  title: {
+    fontSize: 30
+  },
+  description: {
+    fontSize: 15,
+    color: 'grey'
   },
   spinnerContainer: {
     flex: 1,

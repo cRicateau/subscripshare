@@ -29,19 +29,24 @@ const ItemView = React.createClass({
     let item = this.props.item;
     return (
       <ScrollView>
-        <View style={styles.container}>
-          {
-            !this.props.isFetching &&
+        {
+          !this.props.isFetching &&
+          <View style={styles.container}>
             <Text style={styles.title}>{item.name}</Text>
-          }
-        </View>
-        <View style={styles.spinnerContainer}>
-          <Spinner
-            style={styles.spinner}
-            isVisible={this.props.isFetching}
-            type='Bounce'
-          />
-        </View>
+            <Text style={styles.description}>{item.description}</Text>
+            <Text style={styles.price}>{item.price}€/month</Text>
+            </View>
+        }
+        {
+          this.props.isFetching &&
+          <View style={styles.spinnerContainer}>
+            <Spinner
+              style={styles.spinner}
+              isVisible={this.props.isFetching}
+              type='Bounce'
+            />
+          </View>
+        }
       </ScrollView>
     );
   }
@@ -50,10 +55,22 @@ const ItemView = React.createClass({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 50
+    marginTop: 50,
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   title: {
-    marginTop: 30
+    marginTop: 50,
+    fontSize: 30
+  },
+  description: {
+    fontSize: 15,
+    color: 'grey',
+    marginTop: 10
+  },
+  price: {
+    fontSize: 20,
+    marginTop: 50
   },
   spinnerContainer: {
     flex: 1,

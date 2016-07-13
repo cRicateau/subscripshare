@@ -41,7 +41,7 @@ export function fetchSubscriptions() {
 }
 
 
-export function goToItem(item) {
+export function selectItem(item) {
   return {
     type: SELECT_ITEM,
     payload: item
