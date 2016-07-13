@@ -1,5 +1,6 @@
 import {Map} from 'immutable';
 import {loop, Effects} from 'redux-loop';
+import config from '../config'
 
 // Initial state
 const initialState = Map({
@@ -34,12 +35,11 @@ function receiveSubscriptionsFailure() {
 }
 
 export function fetchSubscriptions() {
-  return fetch('http://0.0.0.0:8000/api/subscriptions')
+  return fetch(`${config.baseUrl}/subscriptions`)
     .then(response => response.json())
     .then(receiveSubscriptions)
     .catch(receiveSubscriptionsFailure);
 }
-
 
 export function selectItem(item) {
   return {
