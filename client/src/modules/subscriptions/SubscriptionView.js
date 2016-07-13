@@ -10,8 +10,6 @@ import {
   TouchableHighlight
 } from 'react-native';
 
-import {Button, Card} from 'react-native-material-design';
-
 import Spinner from 'react-native-spinkit';
 
 const SubscriptionView = React.createClass({

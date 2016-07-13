@@ -2,7 +2,6 @@
 
 import React from 'react';
 import CounterViewContainer from './counter/CounterViewContainer';
-import ColorViewContainer from './colors/ColorViewContainer';
 import SubscriptionViewContainer from './subscriptions/SubscriptionViewContainer';
 import ItemViewContainer from './item/ItemViewContainer';
 
