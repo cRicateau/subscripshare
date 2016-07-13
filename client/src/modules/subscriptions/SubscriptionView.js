@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
   item: {
     flex: 1,
     borderBottomWidth: 1,
+    borderColor: 'grey',
     alignItems: 'center',
     justifyContent: 'center',
     height: 90
