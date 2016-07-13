@@ -1,0 +1,26 @@
+Customer:
+  user{1..10}:
+    username: "User {@} : {{name.lastName}}"
+    email: "{{internet.email}}"
+    password: "password"
+
+Subscription:
+  leMonde:
+    name: "Le Monde"
+    description: "Le numero un français"
+    price: "15.99"
+
+  lesEchos:
+    name: "Les Echos"
+    description: "Toute l'actualité économique"
+    price: "19.99"
+
+  spotify:
+    name: "Spotify"
+    description: "Musique en streaming"
+    price: "15"
+
+  netflix:
+    name: "Netflix"
+    description: "Series on Demand"
+    price: "10"

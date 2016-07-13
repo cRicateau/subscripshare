@@ -9,6 +9,12 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
     }
   },
   "validations": [],

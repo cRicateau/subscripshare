@@ -22,6 +22,20 @@ docker-compose run --rm api npm install
 docker-compose up
 ```
 
+## Development
+
+Launch the api:
+```
+    docker-compose up
+```
+
+Connection to the web server container:
+
+```
+    docker exec -it subscripshare_api_1 bash
+```
+
+
 # Mobile app
 
 ## Getting started
