@@ -1,53 +1,38 @@
-import * as SubscriptionState from './SubscriptionState';
-import * as NavigationState from '../../modules/navigation/NavigationState';
+import * as ItemState from './ItemState';
 import React, {PropTypes} from 'react';
 import {
   StyleSheet,
+  TouchableOpacity,
+  Image,
   Text,
   ScrollView,
-  View,
-  Image,
-  TouchableHighlight
+  View
 } from 'react-native';
-
-import {Button, Card} from 'react-native-material-design';
 
 import Spinner from 'react-native-spinkit';
 
-const SubscriptionView = React.createClass({
+const ItemView = React.createClass({
   propTypes: {
+    selectedItem: PropTypes.object.isRequired,
+    item: PropTypes.object.isRequired,
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
     onNavigate: PropTypes.func.isRequired
   },
 
   componentDidMount() {
-    const {dispatch} = this.props
-    dispatch(SubscriptionState.requestSubsriptions())
-  },
-
-  _onPressButton(item) {
-    this.props.dispatch(SubscriptionState.goToItem(item));
-    this.props.dispatch(NavigationState.pushRoute({key: 'SubscriptionItem'}));
+    const {dispatch} = this.props;
+    dispatch(ItemState.requestSubsriptionItem(this.props.selectedItem.id));
   },
 
   render() {
-    let displayedItems = this.props.items.map((item) => {
-      return (
-        <View key={item.id}>
-          <TouchableHighlight onPress={() => this._onPressButton(item)}>
-            <Text style={styles.items}>{item.name}</Text>
-          </TouchableHighlight>
-        </View>
-      );
-    });
-
+    let item = this.props.item;
     return (
       <ScrollView>
         <View style={styles.container}>
           {
             !this.props.isFetching &&
-            displayedItems
+            <Text style={styles.title}>{item.name}</Text>
           }
         </View>
         <View style={styles.spinnerContainer}>
@@ -67,7 +52,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 50
   },
-  items: {
+  title: {
     marginTop: 30
   },
   spinnerContainer: {
@@ -78,9 +63,6 @@ const styles = StyleSheet.create({
   spinner: {
     marginTop: 100
   },
-  image: {
-    width: 100
-  }
 });
 
-export default SubscriptionView;
+export default ItemView;

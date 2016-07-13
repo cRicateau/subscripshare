@@ -36,7 +36,11 @@ const initialState = fromJS(
   createNavigationState('MainNavigation', 'App', [
     createNavigationState('HomeTab', 'Home', [{key: 'Counter', title: 'Counter'}]),
     createNavigationState('ProfileTab', 'Profile', [{key: 'Color', title: 'Color'}]),
-    createNavigationState('SubscriptionTab', 'Subscription', [{key: 'Subscription', title: 'Subscription'}])
+    createNavigationState('SubscriptionTab', 'Subscription', [
+      {key: 'Subscription', title: 'Subscription', routes: [
+        {key: 'SubscriptionItem', title: 'SubscriptionItem'}
+      ]}
+    ])
   ]));
 
 export default function NavigationReducer(state = initialState, action) {

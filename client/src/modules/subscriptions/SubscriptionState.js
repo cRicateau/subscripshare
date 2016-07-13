@@ -8,6 +8,7 @@ const initialState = Map({
 });
 
 // Actions
+const SELECT_ITEM = 'SELECT_ITEM';
 const REQUEST_SUBSCRIPTIONS = 'REQUEST_SUBSCRIPTIONS';
 const RECEIVE_SUBSCRIPTIONS_SUCCESS = 'RECEIVE_SUBSCRIPTIONS_SUCCESS';
 const RECEIVE_SUBSCRIPTIONS_FAILURE = 'RECEIVE_SUBSCRIPTIONS_FAILURE';
@@ -39,6 +40,14 @@ export function fetchSubscriptions() {
     .catch(receiveSubscriptionsFailure);
 }
 
+
+export function goToItem(item) {
+  return {
+    type: SELECT_ITEM,
+    payload: item
+  };
+}
+
 // Reducer
 export default function SubscriptionStateReducer(state = initialState, action = {}) {
   switch (action.type) {
@@ -56,6 +65,11 @@ export default function SubscriptionStateReducer(state = initialState, action = 
     case RECEIVE_SUBSCRIPTIONS_FAILURE:
       return state
         .set('isFetching', false);
+
+    case SELECT_ITEM:
+      return state
+        .set('selectedItem', action.payload)
+
     default:
       return state;
 

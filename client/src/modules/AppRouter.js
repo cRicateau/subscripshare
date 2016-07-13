@@ -4,6 +4,7 @@ import React from 'react';
 import CounterViewContainer from './counter/CounterViewContainer';
 import ColorViewContainer from './colors/ColorViewContainer';
 import SubscriptionViewContainer from './subscriptions/SubscriptionViewContainer';
+import ItemViewContainer from './item/ItemViewContainer';
 
 /**
  * AppRouter is responsible for mapping a navigator scene to a view
@@ -18,6 +19,10 @@ export default function AppRouter(props) {
 
   if (key === 'Subscription') {
     return <SubscriptionViewContainer onNavigate={onNavigate} />;
+  }
+
+  if (key === 'SubscriptionItem') {
+    return <ItemViewContainer onNavigate={onNavigate}/>;
   }
 
   if (key.indexOf('Color') === 0) {

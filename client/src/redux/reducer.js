@@ -4,6 +4,7 @@ import NavigationStateReducer from '../modules/navigation/NavigationState';
 import AuthStateReducer from '../modules/auth/AuthState';
 import CounterStateReducer from '../modules/counter/CounterState';
 import SubscriptionStateReducer from '../modules/subscriptions/SubscriptionState';
+import ItemStateReducer from '../modules/item/ItemState';
 import SessionStateReducer, {RESET_STATE} from '../modules/session/SessionState';
 
 const reducers = {
@@ -19,7 +20,9 @@ const reducers = {
 
   session: SessionStateReducer,
 
-  subscriptions: SubscriptionStateReducer
+  subscriptions: SubscriptionStateReducer,
+
+  item: ItemStateReducer
 };
 
 // initial state, accessor and mutator for supporting root-level
