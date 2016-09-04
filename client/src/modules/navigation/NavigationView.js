@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    bottom: TAB_BAR_HEIGHT
+    bottom: TAB_BAR_HEIGHT,
   },
   hidden: {
     overflow: 'hidden',

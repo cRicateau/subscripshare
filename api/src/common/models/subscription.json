@@ -13,12 +13,30 @@
     "description": {
       "type": "string"
     },
+    "longDescription": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "imageCover": {
+      "type": "string"
+    },
     "price": {
       "type": "number"
+    },
+    "password": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "company": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": "customerId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

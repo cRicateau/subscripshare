@@ -9,18 +9,32 @@ Subscription:
     name: "Le Monde"
     description: "Le numero un français"
     price: "15.99"
+    imageCover: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Le_Monde.svg/2000px-Le_Monde.svg.png"
+    thumbnail: "http://noosfeer.com/images/le-monde-icon.png"
+    longDescription: "Sa ligne éditoriale est généralement présentée comme étant de centre gauche, bien que cette affirmation soit récusée par le journal lui-même, qui revendique un traitement non partisan, et son lectorat est majoritairement orienté à gauche. Le Monde est la propriété du groupe Le Monde, détenu depuis 2010 par les hommes d'affaires Xavier Niel, Pierre Bergé et Matthieu Pigasse."
+    password: "lemonde123"
 
   lesEchos:
     name: "Les Echos"
     description: "Toute l'actualité économique"
     price: "19.99"
+    imageCover: "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_Les_%C3%89chos.svg/1024px-Logo_Les_%C3%89chos.svg.png"
+    thumbnail: "http://cdn.marketplaceimages.windowsphone.com/v8/images/2af437b0-bdb4-4034-a6f6-a1c91d45648e?imageType=ws_icon_medium"
+    longDescription: "Les Échos est un quotidien français d’information économique et financière. Fondé en 1908 par les frères Robert et Émile Servan-Schreiber, il est actuellement propriété du Groupe Les Échos, pôle média du groupe LVMH. D'orientation libérale et imprimé en France, le quotidien économique a perdu début 2012 son seul concurrent direct, La Tribune, désormais essentiellement disponible en format numérique pour l'édition quotidienne avec une version papier hebdomadaire."
+    password: "lesechos123"
 
   spotify:
     name: "Spotify"
     description: "Musique en streaming"
     price: "15"
+    thumbnail: "https://developer.spotify.com/wp-content/uploads/2016/07/icon4@2x.png"
+    imageCover: "http://pixel.nymag.com/imgs/daily/vulture/2015/06/26/26-spotify.w1200.h630.jpg"
+    password: "spotify123"
 
   netflix:
     name: "Netflix"
     description: "Series on Demand"
     price: "10"
+    imageCover: "http://vignette4.wikia.nocookie.net/gotham-inc/images/5/54/Netflix_logo.png/revision/latest?cb=20150827095422"
+    thumbnail: "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/102014/netflix_2014.png?itok=_ifIRJzu"
+    password: "netflix123"

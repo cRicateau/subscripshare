@@ -6,10 +6,10 @@ import {
   Image,
   Text,
   ScrollView,
-  View
+  View,
+  Dimensions,
+  ActivityIndicator
 } from 'react-native';
-
-import Spinner from 'react-native-spinkit';
 
 const ItemView = React.createClass({
   propTypes: {
@@ -28,22 +28,26 @@ const ItemView = React.createClass({
   render() {
     let item = this.props.item;
     return (
-      <ScrollView>
+      <ScrollView style={styles.scrollView}>
         {
           !this.props.isFetching &&
           <View style={styles.container}>
-            <Text style={styles.title}>{item.name}</Text>
-            <Text style={styles.description}>{item.description}</Text>
-            <Text style={styles.price}>{item.price}€/month</Text>
+            <Image
+              style={styles.imageCover}
+              resizeMode="contain"
+              source={{uri: item.imageCover}}
+            />
+            <Text style={styles.description}>{item.longDescription}</Text>
+            <Text style={styles.price}>Prix: {item.price}€/mois</Text>
+            <Text style={styles.password}>Password: {item.password}</Text>
             </View>
         }
         {
           this.props.isFetching &&
           <View style={styles.spinnerContainer}>
-            <Spinner
+            <ActivityIndicator
               style={styles.spinner}
-              isVisible={this.props.isFetching}
-              type='Bounce'
+              animating={this.props.isFetching}
             />
           </View>
         }
@@ -53,11 +57,19 @@ const ItemView = React.createClass({
 });
 
 const styles = StyleSheet.create({
+  scrollView: {
+    backgroundColor: 'white'
+  },
   container: {
     flex: 1,
     marginTop: 50,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  imageCover: {
+    width: Dimensions.get('window').width * 0.9,
+    height: 200,
+    backgroundColor: 'white'
   },
   title: {
     marginTop: 50,
@@ -66,11 +78,16 @@ const styles = StyleSheet.create({
   description: {
     fontSize: 15,
     color: 'grey',
-    marginTop: 10
+    marginTop: 10,
+    marginLeft: 15,
+    marginRight: 15,
   },
   price: {
     fontSize: 20,
     marginTop: 50
+  },
+  password: {
+    marginTop: 10
   },
   spinnerContainer: {
     flex: 1,

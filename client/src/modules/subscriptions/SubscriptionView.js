@@ -2,6 +2,7 @@ import * as SubscriptionState from './SubscriptionState';
 import * as NavigationState from '../../modules/navigation/NavigationState';
 import React, {PropTypes} from 'react';
 import {
+  ActivityIndicator,
   StyleSheet,
   Text,
   ScrollView,
@@ -9,8 +10,6 @@ import {
   Image,
   TouchableHighlight
 } from 'react-native';
-
-import Spinner from 'react-native-spinkit';
 
 const SubscriptionView = React.createClass({
   propTypes: {
@@ -39,9 +38,15 @@ const SubscriptionView = React.createClass({
           <TouchableHighlight
             onPress={() => this._selectItem(item)}
           >
-            <View style={styles.item}>
-              <Text style={styles.title}>{item.name}</Text>
-              <Text style={styles.description}>{item.description}</Text>
+            <View style={styles.card}>
+              <Image
+                style={styles.thumbnail}
+                source={{uri: item.thumbnail}}
+              />
+              <View style={styles.item}>
+                <Text style={styles.title}>{item.name}</Text>
+                <Text style={styles.description}>{item.description}</Text>
+              </View>
             </View>
           </TouchableHighlight>
         </View>
@@ -49,7 +54,7 @@ const SubscriptionView = React.createClass({
     });
 
     return (
-      <ScrollView>
+      <ScrollView style={styles.scrollView}>
         {
           !this.props.isFetching &&
           <View style={styles.itemsContainer}>{displayedItems}</View>
@@ -57,10 +62,9 @@ const SubscriptionView = React.createClass({
         {
           this.props.isFetching &&
           <View style={styles.spinnerContainer}>
-            <Spinner
+            <ActivityIndicator
               style={styles.spinner}
-              isVisible={this.props.isFetching}
-              type='Bounce'
+              animating={this.props.isFetching}
             />
           </View>
         }
@@ -70,26 +74,37 @@ const SubscriptionView = React.createClass({
 });
 
 const styles = StyleSheet.create({
+  scrollView: {
+    backgroundColor: 'white'
+  },
   itemsContainer: {
     flex: 1,
     marginTop: 64,
     backgroundColor: 'white',
-    flexDirection: 'column'
+    flexDirection: 'column',
+  },
+  card: {
+    flex: 1,
+    borderColor: '#F1F1F1',
+    borderBottomWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 90,
+    flexDirection: 'row',
   },
   item: {
     flex: 1,
-    borderBottomWidth: 1,
-    borderColor: 'grey',
-    alignItems: 'center',
     justifyContent: 'center',
-    height: 90
+    flexDirection: 'column',
+    marginLeft: 10
   },
   title: {
-    fontSize: 30
+    fontSize: 18,
+    marginBottom: 10
   },
   description: {
-    fontSize: 15,
-    color: 'grey'
+    fontSize: 13,
+    color: '#9B9B9B'
   },
   spinnerContainer: {
     flex: 1,
@@ -97,11 +112,16 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   spinner: {
-    marginTop: 100
+    marginTop: 300
   },
   image: {
     width: 100
+  },
+  thumbnail: {
+    height: 90,
+    width: 90
   }
+
 });
 
 export default SubscriptionView;
