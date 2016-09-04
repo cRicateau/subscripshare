@@ -4,6 +4,12 @@ Customer:
     email: "{{internet.email}}"
     password: "password"
 
+Group:
+  group{1..5}:
+    name: "Groupe {@}"
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Le_Monde.svg/2000px-Le_Monde.svg.png"
+    description: "une courte description"
+
 Subscription:
   leMonde:
     name: "Le Monde"
@@ -38,3 +44,6 @@ Subscription:
     imageCover: "http://vignette4.wikia.nocookie.net/gotham-inc/images/5/54/Netflix_logo.png/revision/latest?cb=20150827095422"
     thumbnail: "http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/102014/netflix_2014.png?itok=_ifIRJzu"
     password: "netflix123"
+
+GroupSubscription:
+  

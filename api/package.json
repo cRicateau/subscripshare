@@ -14,14 +14,12 @@
   },
   "scripts": {
     "start": "sleep 2 && npm run migrate:up && node src/server/server.js",
-    "pretest": "eslint .",
     "posttest": "nsp check",
     "watch": "npm run migrate:up && node ./node_modules/nodemon/bin/nodemon.js src/server/server.js",
     "test": "sleep 30 && db-migrate --config migrations/database.json reset -e test && db-migrate up --config migrations/database.json -e test; mocha \"test/**/*.test.js\"",
     "migrate:up": "db-migrate up --config migrations/database.json",
     "migrate:down": "db-migrate down --config migrations/database.json",
-    "migrate:create": "db-migrate create --config migrations/database.json",
-    "fixtures:load": "./node_modules/loopback-fixtures/lib/load-fixtures.js"
+    "migrate:create": "db-migrate create --config migrations/database.json"
   },
   "dependencies": {
     "bluebird": "3.3.5",
@@ -33,11 +31,12 @@
     "http-error": "0.0.6",
     "jwt-simple": "0.5.0",
     "lodash": "4.11.1",
-    "loopback": "^3.0.0-alpha.1",
+    "loopback": "^2.31.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.4.0",
     "loopback-connector-postgresql": "2.4.1",
     "loopback-fixtures": "0.0.7",
+    "loopback-promisify": "^0.2.0",
     "moment": "2.13.0",
     "nodemailer": "2.4.2",
     "serve-favicon": "^2.0.1",

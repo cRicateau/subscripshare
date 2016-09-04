@@ -15,9 +15,11 @@ const RECEIVE_SUBSCRIPTIONS_SUCCESS = 'RECEIVE_SUBSCRIPTIONS_SUCCESS';
 const RECEIVE_SUBSCRIPTIONS_FAILURE = 'RECEIVE_SUBSCRIPTIONS_FAILURE';
 
 // Action creators
-export function requestSubsriptions() {
+export function requestSubsriptions(groupId) {
+  console.log('groupid', groupId);
   return {
-    type: REQUEST_SUBSCRIPTIONS
+    type: REQUEST_SUBSCRIPTIONS,
+    payload: groupId
   };
 }
 
@@ -34,8 +36,8 @@ function receiveSubscriptionsFailure() {
   };
 }
 
-export function fetchSubscriptions() {
-  return fetch(`${config.baseUrl}/subscriptions`)
+export function fetchSubscriptions(groupId) {
+  return fetch(`${config.baseUrl}/subscriptions/findByGroup/${groupId}`)
     .then(response => response.json())
     .then(receiveSubscriptions)
     .catch(receiveSubscriptionsFailure);
@@ -54,7 +56,7 @@ export default function SubscriptionStateReducer(state = initialState, action = 
     case REQUEST_SUBSCRIPTIONS:
       return loop(
         state.set('isFetching', true),
-        Effects.promise(fetchSubscriptions)
+        Effects.promise(fetchSubscriptions, action.payload)
       );
 
     case RECEIVE_SUBSCRIPTIONS_SUCCESS:

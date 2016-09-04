@@ -1,0 +1,37 @@
+{
+  "name": "UserGroup",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "subscriptions": {
+      "type": "hasMany",
+      "model": "Subscription",
+      "foreignKey": "userGroupId",
+      "through": "UserGroupSubscription"
+    },
+    "subscribers": {
+      "type": "hasMany",
+      "model": "Customer",
+      "foreignKey": "userGroupId",
+      "through": "userGroupSubscriber"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

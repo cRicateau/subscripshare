@@ -1,4 +1,4 @@
-import * as SubscriptionState from './SubscriptionState';
+import * as GroupState from './GroupState';
 import * as NavigationState from '../../modules/navigation/NavigationState';
 import React, {PropTypes} from 'react';
 import {
@@ -11,42 +11,41 @@ import {
   TouchableHighlight
 } from 'react-native';
 
-const SubscriptionView = React.createClass({
+const GroupView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
-    onNavigate: PropTypes.func.isRequired,
-    selectedGroup: PropTypes.object.isRequired,
+    onNavigate: PropTypes.func.isRequired
   },
 
   componentDidMount() {
-    const {dispatch} = this.props;
-    dispatch(SubscriptionState.requestSubsriptions(this.props.selectedGroup.id))
+    const {dispatch} = this.props
+    dispatch(GroupState.requestGroups())
   },
 
-  _selectItem(item) {
-    this.props.dispatch(SubscriptionState.selectItem(item));
-    this.props.dispatch(NavigationState.pushRoute({key: 'SubscriptionItem'}));
+  _selectGroup(group) {
+    this.props.dispatch(GroupState.selectGroup(group));
+    this.props.dispatch(NavigationState.pushRoute({key: 'Subscription'}));
   },
 
   render() {
-    let displayedItems = this.props.items.map((item) => {
-      if (!item.id) {
+    let displayedgroups = this.props.groups.map((group) => {
+      if (!group.id) {
         return;
       }
       return (
-        <View key={item.id}>
+        <View key={group.id}>
           <TouchableHighlight
-            onPress={() => this._selectItem(item)}
+            onPress={() => this._selectGroup(group)}
           >
             <View style={styles.card}>
               <Image
                 style={styles.thumbnail}
-                source={{uri: item.thumbnail}}
+                source={{uri: group.thumbnail}}
               />
-              <View style={styles.item}>
-                <Text style={styles.title}>{item.name}</Text>
-                <Text style={styles.description}>{item.description}</Text>
+              <View style={styles.group}>
+                <Text style={styles.title}>{group.name}</Text>
+                <Text style={styles.description}>{group.description}</Text>
               </View>
             </View>
           </TouchableHighlight>
@@ -58,7 +57,7 @@ const SubscriptionView = React.createClass({
       <ScrollView style={styles.scrollView}>
         {
           !this.props.isFetching &&
-          <View style={styles.itemsContainer}>{displayedItems}</View>
+          <View style={styles.groupsContainer}>{displayedgroups}</View>
         }
         {
           this.props.isFetching &&
@@ -78,7 +77,7 @@ const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: 'white'
   },
-  itemsContainer: {
+  groupsContainer: {
     flex: 1,
     marginTop: 64,
     backgroundColor: 'white',
@@ -93,7 +92,7 @@ const styles = StyleSheet.create({
     height: 90,
     flexDirection: 'row',
   },
-  item: {
+  group: {
     flex: 1,
     justifyContent: 'center',
     flexDirection: 'column',
@@ -125,4 +124,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default SubscriptionView;
+export default GroupView;

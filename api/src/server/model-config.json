@@ -40,5 +40,17 @@
   "Customer": {
     "dataSource": "db",
     "public": true
+  },
+  "UserGroup": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserGroupSubscriber": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserGroupSubscription": {
+    "dataSource": "db",
+    "public": true
   }
 }

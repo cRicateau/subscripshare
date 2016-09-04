@@ -5,6 +5,7 @@ import AuthStateReducer from '../modules/auth/AuthState';
 import CounterStateReducer from '../modules/counter/CounterState';
 import SubscriptionStateReducer from '../modules/subscriptions/SubscriptionState';
 import ItemStateReducer from '../modules/item/ItemState';
+import GroupStateReducer from '../modules/groups/GroupState';
 import SessionStateReducer, {RESET_STATE} from '../modules/session/SessionState';
 
 const reducers = {
@@ -21,6 +22,8 @@ const reducers = {
   session: SessionStateReducer,
 
   subscriptions: SubscriptionStateReducer,
+
+  groups: GroupStateReducer,
 
   item: ItemStateReducer
 };

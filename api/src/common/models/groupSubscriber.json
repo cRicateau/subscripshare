@@ -1,0 +1,24 @@
+{
+  "name": "UserGroupSubscriber",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "subscriber": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": "userId"
+    },
+    "group": {
+      "type": "belongsTo",
+      "model": "UserGroup",
+      "foreignKey": "userGroupId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

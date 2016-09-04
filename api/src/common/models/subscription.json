@@ -3,7 +3,8 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "promisify": true
   },
   "properties": {
     "name": {
@@ -31,12 +32,19 @@
   },
   "validations": [],
   "relations": {
-    "company": {
+    "buyer": {
       "type": "belongsTo",
       "model": "Customer",
       "foreignKey": "customerId"
+    },
+    "userGroups": {
+      "type": "hasMany",
+      "model": "UserGroup",
+      "foreignKey": "subscriptionId",
+      "through": "UserGroupSubscription"
     }
   },
-  "acls": [],
+  "acls": [
+  ],
   "methods": {}
 }

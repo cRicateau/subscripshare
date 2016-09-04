@@ -35,9 +35,11 @@ export function navigationCompleted() {
 const initialState = fromJS(
   createNavigationState('MainNavigation', 'App', [
     //createNavigationState('HomeTab', 'Home', [{key: 'Counter', title: 'Counter'}]),
-    createNavigationState('SubscriptionTab', 'Mes abonnements', [
-      {key: 'Subscription', title: 'Subscriptions', routes: [
-        {key: 'SubscriptionItem', title: 'SubscriptionItem'}
+    createNavigationState('GroupTab', 'Mes groupes', [
+      {key: 'Group', title: 'Groups', routes: [
+        {key: 'Subscription', title: 'Subscriptions', routes: [
+          {key: 'SubscriptionItem', title: 'SubscriptionItem'}
+        ]}
       ]}
     ])
   ]));

@@ -4,6 +4,7 @@ import SubscriptionView from './SubscriptionView';
 export default connect(
   state => ({
     items: state.getIn(['subscriptions', 'items']),
-    isFetching: state.getIn(['subscriptions', 'isFetching'])
+    isFetching: state.getIn(['subscriptions', 'isFetching']),
+    selectedGroup: state.getIn(['groups', 'selectedGroup']),
   })
 )(SubscriptionView);
