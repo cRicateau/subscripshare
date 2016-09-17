@@ -11,6 +11,8 @@ import {
   TouchableHighlight
 } from 'react-native';
 
+import { Card, ListItem, Button } from 'react-native-elements'
+
 const GroupView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
@@ -34,22 +36,23 @@ const GroupView = React.createClass({
         return;
       }
       return (
-        <View key={group.id}>
-          <TouchableHighlight
+        <Card
+          key={group.id}
+          title={group.name}
+          image={{uri: group.thumbnail}}>
+          <Text style={{marginBottom: 10}}>
+            {group.description}
+          </Text>
+          <Button
+            small
+            icon={{name: 'code'}}
+            raise='true'
             onPress={() => this._selectGroup(group)}
-          >
-            <View style={styles.card}>
-              <Image
-                style={styles.thumbnail}
-                source={{uri: group.thumbnail}}
-              />
-              <View style={styles.group}>
-                <Text style={styles.title}>{group.name}</Text>
-                <Text style={styles.description}>{group.description}</Text>
-              </View>
-            </View>
-          </TouchableHighlight>
-        </View>
+            backgroundColor='#03A9F4'
+            //fontFamily='Lato'
+            buttonStyle={{borderRadius: 0, marginLeft: 0, marginRight: 0, marginBottom: 0}}
+            title='OPEN' />
+        </Card>
       );
     });
 
