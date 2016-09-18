@@ -1,5 +1,7 @@
-INSERT INTO usergroup (id, name, description, thumbnail) SELECT nextval('usergroup_id_seq'), 'Jean Book Club', 'Share everything', 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Le_Monde.svg/2000px-Le_Monde.svg.png';
-INSERT INTO usergroup (id, name, description, thumbnail) SELECT nextval('usergroup_id_seq'), 'Jean Book Club', 'Share everything', 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Le_Monde.svg/2000px-Le_Monde.svg.png';
+INSERT INTO usergroup (id, name, description, thumbnail)
+  SELECT nextval('usergroup_id_seq'), 'Jean Book Club', 'Share everything', 'https://pixabay.com/static/uploads/photo/2015/07/06/13/58/arlberg-pass-833326_960_720.jpg';
+INSERT INTO usergroup (id, name, description, thumbnail)
+  SELECT nextval('usergroup_id_seq'), 'Jean Book Club', 'Share everything', 'http://fullhdwall.com/wp-content/uploads/2016/03/Beautiful-Landscape-Scene.jpg';
 
 INSERT INTO "user" (id, email, password) SELECT 1, 'clementrp@bamlab.fr', 'share';
 INSERT INTO "user" (id, email, password) SELECT 2, 'clementrp@theodo.fr', 'share';

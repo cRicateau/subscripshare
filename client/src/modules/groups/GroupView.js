@@ -38,14 +38,14 @@ const GroupView = React.createClass({
       return (
         <Card
           key={group.id}
-          title={group.name}
+          title={group.name.toUpperCase()}
           image={{uri: group.thumbnail}}>
           <Text style={{marginBottom: 10}}>
             {group.description}
           </Text>
           <Button
             small
-            icon={{name: 'code'}}
+            //icon={{name: 'code'}}
             raise='true'
             onPress={() => this._selectGroup(group)}
             backgroundColor='#03A9F4'
@@ -116,9 +116,6 @@ const styles = StyleSheet.create({
   },
   spinner: {
     marginTop: 300
-  },
-  image: {
-    width: 100
   },
   thumbnail: {
     height: 90,
