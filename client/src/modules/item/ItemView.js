@@ -2,7 +2,6 @@ import * as ItemState from './ItemState';
 import React, {PropTypes} from 'react';
 import {
   StyleSheet,
-  TouchableOpacity,
   Image,
   Text,
   ScrollView,

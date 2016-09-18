@@ -6,9 +6,7 @@ import {
   StyleSheet,
   Text,
   ScrollView,
-  View,
-  Image,
-  TouchableHighlight
+  View
 } from 'react-native';
 
 import { Card, ListItem, Button } from 'react-native-elements'
@@ -17,7 +15,8 @@ const GroupView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
-    onNavigate: PropTypes.func.isRequired
+    onNavigate: PropTypes.func.isRequired,
+    groups: PropTypes.array.isRequired
   },
 
   componentDidMount() {
