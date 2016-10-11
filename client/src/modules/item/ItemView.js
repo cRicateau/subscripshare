@@ -17,7 +17,6 @@ const ItemView = React.createClass({
     item: PropTypes.object.isRequired,
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
-    onNavigate: PropTypes.func.isRequired
   },
 
   componentDidMount() {

@@ -15,7 +15,6 @@ const SubscriptionView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
-    onNavigate: PropTypes.func.isRequired,
     selectedGroup: PropTypes.object.isRequired,
   },
 

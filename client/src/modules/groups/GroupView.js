@@ -17,7 +17,6 @@ const GroupView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
-    onNavigate: PropTypes.func.isRequired
   },
 
   componentDidMount() {
