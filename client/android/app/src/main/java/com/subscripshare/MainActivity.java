@@ -1,6 +1,7 @@
 package com.subscripshare;
 
 import com.facebook.react.ReactActivity;
+import com.oblador.vectoricons.VectorIconsPackage;
 import com.github.xinthink.rnmk.ReactMaterialKitPackage;
 import com.react.rnspinkit.RNSpinkitPackage;
 import com.auth0.lock.react.LockReactPackage;
@@ -38,6 +39,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new VectorIconsPackage(),
             new ReactMaterialKitPackage(),
             new RNSpinkitPackage(),
             new LockReactPackage()

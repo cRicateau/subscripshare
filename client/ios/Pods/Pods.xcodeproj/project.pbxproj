@@ -28,6 +28,7 @@
 		0A08FC71C4E3B8E0F8734BCDA7CCA7CB /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4CFCEFF47F4304B1097EA99AD466EC /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A2A4A70189B07580DEEDE6B4FE367FA /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 199493127B3B217D0491083BD25A6374 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BFE509C480460306B9F36E202F20128 /* A0SimpleKeychain+KeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CD54C7ACA3801CDF4B6D2B14265372 /* A0SimpleKeychain+KeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C8BB0D08EC05060CF1E028C3EDE15C2 /* Pods-subscripshareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54527E00CF8941A51D197E3C64A9B0F5 /* Pods-subscripshareTests-dummy.m */; };
 		0CEED3FD487AEC38DBB5E85BAE88D57F /* miicard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A77B105BDE13791567286DAEC191CD /* miicard@2x.png */; };
 		0D442984AADF69DDC87ACC8ED6FC6771 /* renren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6092B55C59280641F44E584E41A960 /* renren@2x.png */; };
 		0D722F4FF1B8626AFCC8E7E39DD34218 /* A0PhoneFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0C19CCBB23D5478DBF4CE6776829F3 /* A0PhoneFieldView.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -95,7 +96,7 @@
 		2CF3CDDC79104BC6787AE57F3FEE999E /* SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8E30FFD0A5AB7005CCD1170A757871 /* SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D4BDF86C9BCA83FE935E3BF227EDF01 /* NSDictionary+A0QueryParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 0533EB42CFC51DD2BB34D591BDB10067 /* NSDictionary+A0QueryParameters.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2D71BA58AE8DBA20B8A96CE2CEE6178D /* weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4190B05D4D332A5FC19A9D4FFC0535E /* weibo@3x.png */; };
-		2D92BFBDE51007FA4AF32F90A487F773 /* Pods-subscripshare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEBC73DE4BE2F2B2566C9212908E6F3 /* Pods-subscripshare-dummy.m */; };
+		2D92BFBDE51007FA4AF32F90A487F773 /* Pods-subscripshare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5329F1946828CFE505E4837A1B8C755C /* Pods-subscripshare-dummy.m */; };
 		2E78E0E9FEDD02CE5C63041E5433505F /* vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E9EF454536527839469DE29E8AF6BE /* vkontakte.png */; };
 		2F099CF4B4B86B4FA75FE20D6392B4E1 /* A0RSAKeyExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E53411E2681FED6E0C44D23DCF3C6E0 /* A0RSAKeyExporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FDDA0F7689F0DF09FAC1B6FCC6056A4 /* A0EmailSendCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EC65283262328B9242C14AB0E31911 /* A0EmailSendCodeViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -429,6 +430,7 @@
 		E09777E6EBE1D14BEF953552FA0A14B0 /* A0EmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB6D379DD60C41EA1423421A9362E43 /* A0EmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1ED34DB49C6A05D740B8425F88CEC20 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93690E9E2B11D0C6058A38EA61A8D3D0 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E212C2AA95E8F6EFB69A5F1455F291F8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5728CB7EAAE4B54E8CBDC2BAE25611DD /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AEC9FFE2F70A67F13DCA9184BEA4BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3C200C9A49C5831AE0519959FB2DD /* Foundation.framework */; };
 		E4E200124A9C24B099FC6D8AB19A74DB /* A0LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FED07791470413D7DB4246B545330 /* A0LockViewController.m */; };
 		E53635652D09B164943675C76DF144C3 /* yammer.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F2BE3E32181E2E1600189782668FE /* yammer.png */; };
 		E615D3C29787439329B526C729794B1E /* Lock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D531F53D5BAA69C9410FFC3D5BB8FD5 /* Lock-dummy.m */; };
@@ -583,13 +585,16 @@
 		054D96B80F325A90A11A0F0173A1449F /* NSError+A0LockErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+A0LockErrors.m"; path = "Lock/Core/NSError+A0LockErrors.m"; sourceTree = "<group>"; };
 		0553D1E6F6B40400F91D4FBC481AA739 /* A0UsernameValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0UsernameValidator.m; path = Lock/CoreUI/A0UsernameValidator.m; sourceTree = "<group>"; };
 		059D0BEB043C9C1E72A697893DBCE240 /* NSObject+A0APIClientProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A0APIClientProvider.h"; path = "Lock/Core/Private/NSObject+A0APIClientProvider.h"; sourceTree = "<group>"; };
+		05C7A30C8F81CA1FCA8EFA05C8897913 /* Pods-subscripshare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshare-frameworks.sh"; sourceTree = "<group>"; };
 		062E47DECDC390C411D62672DCFD1CE4 /* secondary_button_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "secondary_button_normal@2x.png"; path = "Auth0/Images/secondary_button_normal@2x.png"; sourceTree = "<group>"; };
+		06D28C6CB3C137468D7623D577C37A30 /* libTouchIDAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchIDAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D5B810C90E27B6227DB63B286A03D8 /* A0LoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LoadingView.h; path = Lock/CoreUI/A0LoadingView.h; sourceTree = "<group>"; };
 		070DD4E5BCC0AEFE13E90D424AEE23DD /* NSDictionary+A0QueryParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+A0QueryParameters.m"; path = "Lock/Core/Private/NSDictionary+A0QueryParameters.m"; sourceTree = "<group>"; };
 		071184C82D2CA0428E8DF4E5526D2156 /* A0WebAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0WebAuthentication.m; path = Lock/Core/Private/A0WebAuthentication.m; sourceTree = "<group>"; };
 		0728DBC5F38A875B5FAB609DAA2A8D7F /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
 		07A6A11A4514F51E6477BCE522C0E3C8 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		07AA9AA94A427C4A98675E2A9ED188EF /* NSData+A0JWTSafeBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+A0JWTSafeBase64.h"; path = "TouchIDAuth/NSData+A0JWTSafeBase64.h"; sourceTree = "<group>"; };
+		0834F5F27FC25F9C8F21992960A7C521 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		089FD15A3ABCB4229BA55B3383E76C6B /* A0KeyboardHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0KeyboardHandler.h; path = Lock/Utils/A0KeyboardHandler.h; sourceTree = "<group>"; };
 		0AC860B06680AECBA9090FD8C17F74E8 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
 		0AF3C200C9A49C5831AE0519959FB2DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -597,6 +602,7 @@
 		0B4CFCEFF47F4304B1097EA99AD466EC /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		0C3903E1630F2EF749810A3A20FBE3F6 /* aol@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "aol@3x.png"; path = "Auth0/Social/aol@3x.png"; sourceTree = "<group>"; };
 		0DB006EF47F2BD8319FEB285B167AC4E /* A0RoundedBoxView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0RoundedBoxView.h; path = Lock/UI/Private/A0RoundedBoxView.h; sourceTree = "<group>"; };
+		0DE79BF99DB1A1C4FBC351EA62A48EA5 /* Pods-subscripshareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0ECF1C24C3535AE44D4185C0BBC739B4 /* A0ActiveDirectoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ActiveDirectoryViewController.h; path = Lock/UI/Private/A0ActiveDirectoryViewController.h; sourceTree = "<group>"; };
 		0F43CD9FC76EEF56AC8BCB922BAC6557 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "Auth0/Images/close@2x.png"; sourceTree = "<group>"; };
 		0F9FED07791470413D7DB4246B545330 /* A0LockViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0LockViewController.m; path = Lock/UI/A0LockViewController.m; sourceTree = "<group>"; };
@@ -604,6 +610,7 @@
 		10F08345AFABC469DF8E08AC15B0B957 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		111A315EEEBB14A982028AD255658A1C /* A0PasswordValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0PasswordValidator.m; path = Lock/CoreUI/A0PasswordValidator.m; sourceTree = "<group>"; };
 		118121D9636DB13400C6347AEEB87EFC /* 37signals@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "37signals@2x.png"; path = "Auth0/Social/37signals@2x.png"; sourceTree = "<group>"; };
+		1305A2FC7B0334BC27056D4E57141EAC /* Pods-subscripshareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-subscripshareTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13F020ACBC0A2FD2078E4177B0350A60 /* thecity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = thecity.png; path = Auth0/Social/thecity.png; sourceTree = "<group>"; };
 		148789563E2919973D5BB3559DB35D3B /* shopify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = shopify.png; path = Auth0/Social/shopify.png; sourceTree = "<group>"; };
 		15DC210706D3E8567664BC99B39EFD10 /* A0LockConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LockConfiguration.h; path = Lock/UI/A0LockConfiguration.h; sourceTree = "<group>"; };
@@ -635,7 +642,6 @@
 		21C369B463127E6BA482218C351A9A90 /* NSError+A0AuthAPIError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+A0AuthAPIError.m"; path = "Lock/Core/NSError+A0AuthAPIError.m"; sourceTree = "<group>"; };
 		22FF88DF6EF05E4B6E0EF0E105BA70A1 /* NSError+A0LockErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+A0LockErrors.h"; path = "Lock/Core/NSError+A0LockErrors.h"; sourceTree = "<group>"; };
 		23038F45BD36380BE24FB7644BF2F341 /* soundcloud@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "soundcloud@3x.png"; path = "Auth0/Social/soundcloud@3x.png"; sourceTree = "<group>"; };
-		23628ED9905539A0B94672C80DEC85DD /* libLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C2EC9538A96B57D34167FBC72926FA /* A0SignUpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SignUpViewController.m; path = Lock/UI/Private/A0SignUpViewController.m; sourceTree = "<group>"; };
 		23FBE3620A3D2324773D040DC163A278 /* vkontakte@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "vkontakte@2x.png"; path = "Auth0/Social/vkontakte@2x.png"; sourceTree = "<group>"; };
 		256DE76F226DDEF00C9CD783D2E209A4 /* A0PasswordValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0PasswordValidator.h; path = Lock/CoreUI/A0PasswordValidator.h; sourceTree = "<group>"; };
@@ -651,7 +657,6 @@
 		28B2EFF018E832778A88186810262456 /* A0Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0Alert.m; path = Lock/CoreUI/A0Alert.m; sourceTree = "<group>"; };
 		28CEF287CFF63A0B2BCF74A1EFDD299D /* A0KeyboardEnabledView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0KeyboardEnabledView.h; path = Lock/UI/A0KeyboardEnabledView.h; sourceTree = "<group>"; };
 		2A438474C878E9F1F1D7D3BD9573D98F /* yahoo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = yahoo.png; path = Auth0/Social/yahoo.png; sourceTree = "<group>"; };
-		2A59E490AE4B2C554B14116C311CAD3F /* libTouchIDAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchIDAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACB48AE82922883FEF6860D97663529 /* A0PasswordlessLockViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0PasswordlessLockViewModel.h; path = Lock/CoreUI/A0PasswordlessLockViewModel.h; sourceTree = "<group>"; };
 		2B8C4F7FFEB6C39826A4D38ABF7607C4 /* A0WebKitViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0WebKitViewController.m; path = Lock/WebView/A0WebKitViewController.m; sourceTree = "<group>"; };
 		2BB38CBECCD86B91A00DB1F51A6F8A76 /* A0ProgressButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0ProgressButton.m; path = Lock/Utils/A0ProgressButton.m; sourceTree = "<group>"; };
@@ -705,7 +710,6 @@
 		4492A8E1C287830843A3F164FA24AE63 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		44DAE3354238566AEF94B719701AA252 /* A0JSONResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0JSONResponseSerializer.h; path = Lock/Core/Private/A0JSONResponseSerializer.h; sourceTree = "<group>"; };
 		4558E1F372DC1B09AE245ADEE93E77C8 /* CountryCodes.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CountryCodes.plist; path = Auth0/CountryCodes.plist; sourceTree = "<group>"; };
-		45B11BC545B5D35A12A1FA3C170BC8CB /* Pods-subscripshare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-subscripshare-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45EC65283262328B9242C14AB0E31911 /* A0EmailSendCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0EmailSendCodeViewController.h; path = Lock/Email/Private/A0EmailSendCodeViewController.h; sourceTree = "<group>"; };
 		4603328A3249E2062FAD443CCEA5C4A2 /* A0SimpleKeychain+KeyPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "A0SimpleKeychain+KeyPair.m"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.m"; sourceTree = "<group>"; };
 		47B922A961F09E49D72C0E9FC2D23D46 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
@@ -715,7 +719,6 @@
 		496D64A44F0DFAE325A039FC177FED10 /* A0LoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0LoginView.m; path = Lock/UI/A0LoginView.m; sourceTree = "<group>"; };
 		4989004C5E51E772B075F61826B692D5 /* A0KeyUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0KeyUploader.m; path = Lock/TouchID/A0KeyUploader.m; sourceTree = "<group>"; };
 		4B0C19CCBB23D5478DBF4CE6776829F3 /* A0PhoneFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0PhoneFieldView.h; path = Lock/SMS/Private/A0PhoneFieldView.h; sourceTree = "<group>"; };
-		4BDE4990CB3F73BE1AA5F457416FE93A /* libSimpleKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE3858FFFFF0C2AA1A3652AD3BD12AE /* A0Connection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0Connection.m; path = Lock/Core/A0Connection.m; sourceTree = "<group>"; };
 		4CCB7F3BB856E7BEC8EB8CAFFE2F05BA /* secondary_button_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "secondary_button_highlighted@2x.png"; path = "Auth0/Images/secondary_button_highlighted@2x.png"; sourceTree = "<group>"; };
 		4D14F9932E392331421B40B071DFE076 /* A0TouchIDAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0TouchIDAuthentication.m; path = TouchIDAuth/A0TouchIDAuthentication.m; sourceTree = "<group>"; };
@@ -732,10 +735,12 @@
 		512D8841E472009F28618061E7BA27F7 /* A0SmallSocialServiceCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SmallSocialServiceCollectionView.h; path = Lock/UI/Private/A0SmallSocialServiceCollectionView.h; sourceTree = "<group>"; };
 		513F9C1E9CA0D524B09467F32C0CE5E2 /* A0KeyUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0KeyUploader.h; path = Lock/TouchID/A0KeyUploader.h; sourceTree = "<group>"; };
 		518F28604EF2164F66AAD50CAD53F7F1 /* person.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = person.png; path = Auth0/Images/person.png; sourceTree = "<group>"; };
+		5329F1946828CFE505E4837A1B8C755C /* Pods-subscripshare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-subscripshare-dummy.m"; sourceTree = "<group>"; };
 		535856C1CF77697C2443708C729302BA /* google@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "google@3x.png"; path = "Auth0/Social/google@3x.png"; sourceTree = "<group>"; };
 		53651B73FAE4ACFA078170B66380BE5B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		536D98590091CD5726549FA4D6DFFC9C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
 		53A3F63737FD0111FB634E2EE175E2F2 /* A0ConnectionDomainMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ConnectionDomainMatcher.h; path = Lock/Core/A0ConnectionDomainMatcher.h; sourceTree = "<group>"; };
+		54527E00CF8941A51D197E3C64A9B0F5 /* Pods-subscripshareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-subscripshareTests-dummy.m"; sourceTree = "<group>"; };
 		5510194001B70BA1D7696AED51D08339 /* aol@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "aol@2x.png"; path = "Auth0/Social/aol@2x.png"; sourceTree = "<group>"; };
 		55367197F227B8E4941283110FA380CF /* secondary_button_normal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = secondary_button_normal.png; path = Auth0/Images/secondary_button_normal.png; sourceTree = "<group>"; };
 		553B013942F37E08253034A843AB8E1B /* A0Application.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0Application.m; path = Lock/Core/A0Application.m; sourceTree = "<group>"; };
@@ -750,6 +755,7 @@
 		594CE66719748DC92C801AC457E83FA9 /* A0AuthenticatorProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0AuthenticatorProvider.h; path = Lock/Core/A0AuthenticatorProvider.h; sourceTree = "<group>"; };
 		5A6A0FAD29E6BE062EC8D9BC2C216D40 /* touchid_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "touchid_selected@2x.png"; path = "Auth0/Images/touchid_selected@2x.png"; sourceTree = "<group>"; };
 		5A8E30FFD0A5AB7005CCD1170A757871 /* SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleKeychain.h; path = SimpleKeychain/SimpleKeychain.h; sourceTree = "<group>"; };
+		5B5C2E3954A9028A04C96D394DA4A90A /* Pods-subscripshareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-subscripshareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5BBA2592C2C38D9E0E09B1D15AECF884 /* A0EmailMagicLinkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0EmailMagicLinkViewController.h; path = Lock/Email/Private/A0EmailMagicLinkViewController.h; sourceTree = "<group>"; };
 		5BD1EAC317FA567BFDDE5492DEE994F0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		5C5E16A8EE8107E96E1690ED9787E181 /* A0FullLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0FullLoginViewController.h; path = Lock/UI/Private/A0FullLoginViewController.h; sourceTree = "<group>"; };
@@ -769,11 +775,13 @@
 		6338F479EC87498997BCF479486583FE /* A0TitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0TitleView.h; path = Lock/UI/Private/A0TitleView.h; sourceTree = "<group>"; };
 		634835522031D2252D95E79EEEEEF776 /* facebook.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = facebook.png; path = Auth0/Social/facebook.png; sourceTree = "<group>"; };
 		63A1BCB33437039DD2FA52007C98C632 /* 37signals@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "37signals@3x.png"; path = "Auth0/Social/37signals@3x.png"; sourceTree = "<group>"; };
+		64F072EA8D3780C10CD457DA238D5D00 /* Pods-subscripshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshare.release.xcconfig"; sourceTree = "<group>"; };
 		6522A23BE21151690A7A4475325FDF07 /* shopify@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "shopify@3x.png"; path = "Auth0/Social/shopify@3x.png"; sourceTree = "<group>"; };
 		65BC8BA11EAD35273E070AFD9E34CA7A /* A0SMSCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SMSCodeViewController.h; path = Lock/SMS/Private/A0SMSCodeViewController.h; sourceTree = "<group>"; };
 		65D23B3685057E8992FCD652E7ACD694 /* A0Token.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0Token.m; path = Lock/Core/A0Token.m; sourceTree = "<group>"; };
 		66A2E5A84D61B1314A60A9B087B45F32 /* A0SMSMagicLinkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SMSMagicLinkViewController.h; path = Lock/SMS/Private/A0SMSMagicLinkViewController.h; sourceTree = "<group>"; };
 		66BF573A3AA387C2EFC608B6B5ED6AFB /* A0UserIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0UserIdentity.h; path = Lock/Core/A0UserIdentity.h; sourceTree = "<group>"; };
+		66EB91B390070565196E60EC1AFBFD47 /* Pods-subscripshareTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshareTests-frameworks.sh"; sourceTree = "<group>"; };
 		673D570AFAC6D54AC23F9D670C6B6F50 /* A0LoadingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0LoadingViewController.m; path = Lock/UI/Private/A0LoadingViewController.m; sourceTree = "<group>"; };
 		678316AA0E0DA16AC9DF2B9F4FDA3F07 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
 		67A6E08D7D6C40D9953B6EBE58ED2920 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
@@ -821,11 +829,11 @@
 		7CD2CC7B3F8D89C6763DE934D8C11266 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Lock/Core/Private/Constants.h; sourceTree = "<group>"; };
 		7D3AF4DB06D96247E51899678429F935 /* yammer@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "yammer@2x.png"; path = "Auth0/Social/yammer@2x.png"; sourceTree = "<group>"; };
 		7E34EEA6FB37264FBC9A62128DF6ED97 /* A0UsernameValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0UsernameValidator.h; path = Lock/CoreUI/A0UsernameValidator.h; sourceTree = "<group>"; };
-		7E868D61CA6B90DCEBEBCB06622724E6 /* libPods-subscripshare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-subscripshare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2562EFACEE95456A7D2C9993C1A2B9 /* salesforce.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = salesforce.png; path = Auth0/Social/salesforce.png; sourceTree = "<group>"; };
 		7FC3B790DD849BEC4F663088822ACBBF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		7FC7C387D591C2A2D93D653E6887F5C5 /* A0Lock+A0SMSLockViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "A0Lock+A0SMSLockViewController.m"; path = "Lock/SMS/A0Lock+A0SMSLockViewController.m"; sourceTree = "<group>"; };
 		7FE0FD474AEFA453B528065593281958 /* TouchIDAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchIDAuth-dummy.m"; sourceTree = "<group>"; };
+		800D22A587080BF851E4C08EBD28CF4F /* Pods-subscripshareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshareTests.release.xcconfig"; sourceTree = "<group>"; };
 		80BEA25E06F711180497E52BB0931A0A /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		80ED5FA99282D071F7E7E3081295ED7E /* A0TouchID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0TouchID.m; path = TouchIDAuth/A0TouchID.m; sourceTree = "<group>"; };
 		8179645515FBF8BD06A29085661E4E7E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
@@ -840,6 +848,7 @@
 		8A321E63F22C2F562C8DAAFCDC4330C0 /* instagram@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instagram@3x.png"; path = "Auth0/Social/instagram@3x.png"; sourceTree = "<group>"; };
 		8A54EC7C8B5CDC6E8CDBC676D0554240 /* wordpress.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = wordpress.png; path = Auth0/Social/wordpress.png; sourceTree = "<group>"; };
 		8AC9C4A17460B4C9DD6629AF3A625F5F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		8B010E4743E824CC31E13C64E7624384 /* libPods-subscripshareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-subscripshareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B12886EE15F0F2CE72379B1F59D0E91 /* A0GenericAPIErrorHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0GenericAPIErrorHandler.m; path = Lock/Core/A0GenericAPIErrorHandler.m; sourceTree = "<group>"; };
 		8D818C1EED36798013005FF3831158F1 /* cellphone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = cellphone.png; path = Auth0/Images/cellphone.png; sourceTree = "<group>"; };
 		8D8DEF0DAD442D1F33BBFD04C9701651 /* A0ServiceViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ServiceViewModel.h; path = Lock/UI/Private/A0ServiceViewModel.h; sourceTree = "<group>"; };
@@ -849,7 +858,6 @@
 		8EE3FA57D91BEADE6C3A627679B74C44 /* A0LoadingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LoadingViewController.h; path = Lock/UI/Private/A0LoadingViewController.h; sourceTree = "<group>"; };
 		9004108F26092C9486CEC7AC018A0234 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		91572C79F10DEF485111709A7AC32BC8 /* A0CredentialFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0CredentialFieldView.h; path = Lock/UI/Private/A0CredentialFieldView.h; sourceTree = "<group>"; };
-		917B52D5821CB3B6106D75E35AABE8A5 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		917C8C89251A38023540CC00E760834A /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		9194BD828623761EA1CD4A9BC5166620 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		92819D4066368FB927D97239FCF3A117 /* A0MFACodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0MFACodeViewController.h; path = Lock/UI/Private/A0MFACodeViewController.h; sourceTree = "<group>"; };
@@ -861,6 +869,7 @@
 		93C02F7487E0F72EF1E43CC2248B81C1 /* A0AuthenticationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0AuthenticationProvider.h; path = Lock/Provider/A0AuthenticationProvider.h; sourceTree = "<group>"; };
 		9430049E9F3483BF3D69E1EDC4DB70B9 /* A0LockNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LockNotification.h; path = Lock/Core/A0LockNotification.h; sourceTree = "<group>"; };
 		944F54A6C403C4CEE3975640A5C84551 /* A0ChangePasswordViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ChangePasswordViewController.h; path = Lock/UI/Private/A0ChangePasswordViewController.h; sourceTree = "<group>"; };
+		9461310FDE29020C5EA6372C87FF7D58 /* Pods-subscripshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshare.debug.xcconfig"; sourceTree = "<group>"; };
 		94C91A02A11A7AADFD6D403994DB0C11 /* A0LockConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0LockConfiguration.m; path = Lock/UI/A0LockConfiguration.m; sourceTree = "<group>"; };
 		951A8186410BB596B9893397D61A9412 /* NSObject+A0AuthenticatorProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A0AuthenticatorProvider.m"; path = "Lock/Core/iOS/NSObject+A0AuthenticatorProvider.m"; sourceTree = "<group>"; };
 		958BBC55B6148EC1F7902495CF3052A3 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
@@ -870,6 +879,7 @@
 		97EC8A779B1C24B3650A41E6B7BBEB4E /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		98A7F04D98D27751A105E407927C2A41 /* soundcloud@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "soundcloud@2x.png"; path = "Auth0/Social/soundcloud@2x.png"; sourceTree = "<group>"; };
 		990392E01B4ED269EDF474FD9E585BC3 /* soundcloud.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = soundcloud.png; path = Auth0/Social/soundcloud.png; sourceTree = "<group>"; };
+		99B1FD150F95C4C08FEB4D4CF36E4B13 /* Pods-subscripshare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshare-resources.sh"; sourceTree = "<group>"; };
 		99C4B62C495EE974F4169D04692D72E9 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		9A34F66BAC49D4CBFCDD78F9AFE4CB85 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		9A675D985440F020AC44355B21428A70 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -878,11 +888,11 @@
 		9B47A34D5D4E8442F61A3A92BBFA488D /* mail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = mail.png; path = Auth0/Images/mail.png; sourceTree = "<group>"; };
 		9B4A1F15EC68BE023A582F7A4C2A4EA0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		9B66B55ADB2CB2B154490022AAE9A46D /* A0JSONResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0JSONResponseSerializer.m; path = Lock/Core/Private/A0JSONResponseSerializer.m; sourceTree = "<group>"; };
+		9B9D6A4C575432C9B4FF3CA712633C9E /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF2A3DEAA0B06A0E093A07AD6B7B928 /* A0ServiceCollectionViewLayoutDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0ServiceCollectionViewLayoutDelegate.m; path = Lock/UI/Private/A0ServiceCollectionViewLayoutDelegate.m; sourceTree = "<group>"; };
 		9C9DC6DDEC11313951A10FEDC3CF1F6A /* A0NavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0NavigationController.m; path = Lock/UI/Private/A0NavigationController.m; sourceTree = "<group>"; };
 		9D08AD2B7A6C86254E121276FD571173 /* UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UI.h; path = Lock/UI/UI.h; sourceTree = "<group>"; };
 		9D94A8985FD2E08A2042184F51BCF2CA /* baidu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "baidu@3x.png"; path = "Auth0/Social/baidu@3x.png"; sourceTree = "<group>"; };
-		9DE2C99164FB579580B913E46AC4C6B5 /* Pods-subscripshare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-subscripshare-acknowledgements.plist"; sourceTree = "<group>"; };
 		9E0A03BC15C30C59E867834E03DC000F /* A0Lock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0Lock.m; path = Lock/Core/A0Lock.m; sourceTree = "<group>"; };
 		9F5D17FF5FB246576C9C1D84646EE2FC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		A0A1EA8B5253AD76A76B8749D7354F64 /* github@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "github@2x.png"; path = "Auth0/Social/github@2x.png"; sourceTree = "<group>"; };
@@ -896,9 +906,9 @@
 		A510EFDD32CE71440F714BEE75A6EF29 /* A0AuthParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0AuthParameters.h; path = Lock/Core/A0AuthParameters.h; sourceTree = "<group>"; };
 		A54692E843789CE027072CEA837C7DBE /* instagram@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instagram@2x.png"; path = "Auth0/Social/instagram@2x.png"; sourceTree = "<group>"; };
 		A66B2D84511F4E08CF2FDB11EDC67DDA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A6FE389DA88951DEC100473EC94524E3 /* libPods-subscripshare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-subscripshare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76311EEF40834353D013D7333055381 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		A8CBD02CF7915B61351A86BC3876E967 /* salesforce@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "salesforce@2x.png"; path = "Auth0/Social/salesforce@2x.png"; sourceTree = "<group>"; };
-		A941201168A94522F03759FF2E230FFC /* Pods-subscripshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshare.release.xcconfig"; sourceTree = "<group>"; };
 		A95603F8908F77B6EB74691169014C04 /* thecity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thecity@2x.png"; path = "Auth0/Social/thecity@2x.png"; sourceTree = "<group>"; };
 		A9DB05A97FA64B286A46F14EF1062459 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		AA5A866000AA9173F03B70F14B48BDDE /* A0PhoneNumberValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0PhoneNumberValidator.h; path = Lock/CoreUI/A0PhoneNumberValidator.h; sourceTree = "<group>"; };
@@ -910,17 +920,17 @@
 		AE2BEE8798E9727A654F3A28A33C1A8C /* A0PasswordFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0PasswordFieldView.h; path = Lock/UI/Private/A0PasswordFieldView.h; sourceTree = "<group>"; };
 		AFAE47F832D7633A48864D11E365EA3E /* NSObject+A0APIClientProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A0APIClientProvider.m"; path = "Lock/Core/Private/NSObject+A0APIClientProvider.m"; sourceTree = "<group>"; };
 		AFD61AF3C75452E4E5BCBD9543579F37 /* A0APIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0APIClient.h; path = Lock/Core/A0APIClient.h; sourceTree = "<group>"; };
-		AFE7150F004E5C62568C14A052540824 /* Pods-subscripshare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshare-frameworks.sh"; sourceTree = "<group>"; };
 		B04DEFFEE47CC91FE54E40384CA77218 /* A0DatabaseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0DatabaseLoginViewController.m; path = Lock/UI/Private/A0DatabaseLoginViewController.m; sourceTree = "<group>"; };
 		B0956B5CC3DD3B23E18251E5D099AC7B /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		B149B8A5FBEC675A4AD04A37817E7E9E /* A0ServiceCollectionViewLayoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ServiceCollectionViewLayoutDelegate.h; path = Lock/UI/Private/A0ServiceCollectionViewLayoutDelegate.h; sourceTree = "<group>"; };
 		B167664640CFDD1B643F6EAFEF30ACE8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		B18191D6F0789BF02DD612440F76DFCA /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B548E0F31123F2718C203D8CC8E6293C /* A0CredentialFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0CredentialFieldView.m; path = Lock/UI/Private/A0CredentialFieldView.m; sourceTree = "<group>"; };
+		B57C0F64056389BBFB9E89CED67F8C97 /* Pods-subscripshare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-subscripshare-acknowledgements.plist"; sourceTree = "<group>"; };
 		B60F6F74C77923B0394A6B273D98EE64 /* box.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = box.png; path = Auth0/Social/box.png; sourceTree = "<group>"; };
 		B6646FFCDCDCB9811B37E864D01C4B2C /* NSError+A0APIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+A0APIError.h"; path = "Lock/Core/Private/NSError+A0APIError.h"; sourceTree = "<group>"; };
 		B693E44DCFC987313DF87C189F0125F7 /* renren@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "renren@3x.png"; path = "Auth0/Social/renren@3x.png"; sourceTree = "<group>"; };
 		B6FCD4BD62D86549DB99991E62BF3003 /* ResourceBundle-Auth0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Auth0-Info.plist"; sourceTree = "<group>"; };
+		B7B619142197448D3914CE25FFAAE2EE /* Auth0.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Auth0.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B805AB07D57C37FAF07968A0489D68E6 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		B83FBB5745C4579F2DEA97252C33287B /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = Auth0/Images/close.png; sourceTree = "<group>"; };
 		B897A799AD92081FE6A44FD3BFD6B520 /* A0WebAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0WebAuthentication.h; path = Lock/Core/Private/A0WebAuthentication.h; sourceTree = "<group>"; };
@@ -930,6 +940,7 @@
 		B989DB579ABEAF3CF0AC6F131CD2588B /* A0SMSLockViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SMSLockViewController.m; path = Lock/SMS/A0SMSLockViewController.m; sourceTree = "<group>"; };
 		BA0531E1A2F5DE0AC753E2F22CA396B3 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		BA3EC02FD7F2CAA0EA45E4930C4E33C7 /* A0APIClientProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0APIClientProvider.h; path = Lock/Core/A0APIClientProvider.h; sourceTree = "<group>"; };
+		BA635E601BC0E99E7871B0AD4D9C208B /* libLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9B749ADEAE9ED6BC59D3C7258E2C19 /* A0Lock+A0EmailLockViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "A0Lock+A0EmailLockViewController.m"; path = "Lock/Email/A0Lock+A0EmailLockViewController.m"; sourceTree = "<group>"; };
 		BADE76561A0BAFBCC8CE7C432127165F /* A0EnterpriseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0EnterpriseLoginViewController.m; path = Lock/UI/Private/A0EnterpriseLoginViewController.m; sourceTree = "<group>"; };
 		BB055FCF75984A06FCBFA1556BE93AAE /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
@@ -949,6 +960,7 @@
 		C2A6AB4AC87E23A57F17731550BE67ED /* SimpleKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-prefix.pch"; sourceTree = "<group>"; };
 		C2BE95FB921935C43159D7CDDF457F57 /* A0ServiceTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ServiceTableViewCell.h; path = Lock/UI/Private/A0ServiceTableViewCell.h; sourceTree = "<group>"; };
 		C37D6E0252A26CD5CCC62E05835E78C3 /* NSError+A0AuthAPIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+A0AuthAPIError.h"; path = "Lock/Core/NSError+A0AuthAPIError.h"; sourceTree = "<group>"; };
+		C402A7E07A6CFDBCA2B30819F4B40CAE /* Pods-subscripshareTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshareTests-resources.sh"; sourceTree = "<group>"; };
 		C4EA33B366C56A92B399DF55F27B6D8B /* Lock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lock.xcconfig; sourceTree = "<group>"; };
 		C5559E88659E2181F566DDD5250B612F /* A0EmailCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0EmailCodeViewController.h; path = Lock/Email/Private/A0EmailCodeViewController.h; sourceTree = "<group>"; };
 		C5744BA03A2703D0AC5C794AF260C288 /* miicard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = miicard.png; path = Auth0/Social/miicard.png; sourceTree = "<group>"; };
@@ -973,11 +985,11 @@
 		CD37EA8A958AF157A427E9123481A5B0 /* A0TouchIDRegisterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0TouchIDRegisterViewController.m; path = Lock/TouchID/Private/A0TouchIDRegisterViewController.m; sourceTree = "<group>"; };
 		CD6DB41D0CF0016B809832308BEA0822 /* A0LoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LoginView.h; path = Lock/UI/A0LoginView.h; sourceTree = "<group>"; };
 		CDBFB5C84DC35FD99464DE0CA27BF7BC /* A0EmailSendCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0EmailSendCodeViewController.m; path = Lock/Email/Private/A0EmailSendCodeViewController.m; sourceTree = "<group>"; };
-		CDEBECA44E49D65E53F1992F722D06DA /* Pods-subscripshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-subscripshare.debug.xcconfig"; sourceTree = "<group>"; };
 		CE797409F7997FF6739F669082620002 /* A0LockEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0LockEventDelegate.h; path = Lock/UI/A0LockEventDelegate.h; sourceTree = "<group>"; };
 		CEBDBFCF65FE896D85A6A7B7DBBF15EB /* A0UserAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0UserAPIClient.m; path = Lock/Core/A0UserAPIClient.m; sourceTree = "<group>"; };
 		CF18727C5382A1B85B747E0B9D91C32C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		CF8512E57A7BF05DE8DDBD6AFA1312BC /* fitbit@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fitbit@3x.png"; path = "Auth0/Social/fitbit@3x.png"; sourceTree = "<group>"; };
+		D04D336085B88C844C7CC0638241BD80 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E25CC5829AA254E7CD6BB7CE7A02F7 /* A0UserIdentity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0UserIdentity.m; path = Lock/Core/A0UserIdentity.m; sourceTree = "<group>"; };
 		D16B3DD709760BE69471046ADD9D168F /* A0FullLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0FullLoginViewController.m; path = Lock/UI/Private/A0FullLoginViewController.m; sourceTree = "<group>"; };
 		D26E7F2B562BF8D4BA71FB015DAF2448 /* microsoft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "microsoft@2x.png"; path = "Auth0/Social/microsoft@2x.png"; sourceTree = "<group>"; };
@@ -993,7 +1005,6 @@
 		D684FFE7F7A73A04F5C6F663311072D3 /* A0SMSLockViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SMSLockViewController.h; path = Lock/SMS/A0SMSLockViewController.h; sourceTree = "<group>"; };
 		D7759CE91F8C42FDA9A6C77AC3E040DD /* cellphone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cellphone@2x.png"; path = "Auth0/Images/cellphone@2x.png"; sourceTree = "<group>"; };
 		D7FE2AD0F597D42C4A67C1A386E3F70E /* A0APIv1Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0APIv1Router.h; path = Lock/Core/A0APIv1Router.h; sourceTree = "<group>"; };
-		D9A15DB3C05B653187FEA71C8F45044D /* Auth0.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Auth0.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA653A0F8B15EB9C8294A602738306FE /* touchid_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "touchid_selected@3x.png"; path = "Auth0/Images/touchid_selected@3x.png"; sourceTree = "<group>"; };
 		DA7AD69C9507002119E000E871FAEE05 /* A0Theme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0Theme.h; path = Lock/CoreUI/A0Theme.h; sourceTree = "<group>"; };
 		DB1EB67D9C8DC63F356ABD554437B3C7 /* A0FileCredentialProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0FileCredentialProvider.h; path = Lock/Core/A0FileCredentialProvider.h; sourceTree = "<group>"; };
@@ -1005,14 +1016,12 @@
 		DF558F9BFDB043AA38FE2A25797E1E45 /* A0PhoneFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0PhoneFieldView.m; path = Lock/SMS/Private/A0PhoneFieldView.m; sourceTree = "<group>"; };
 		DF7F55369C9467AC7B3CF229C41ECFB8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		DFD90FCFE737CC8DA4AFF606C2BB1770 /* twitter@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "twitter@2x.png"; path = "Auth0/Social/twitter@2x.png"; sourceTree = "<group>"; };
-		DFEBC73DE4BE2F2B2566C9212908E6F3 /* Pods-subscripshare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-subscripshare-dummy.m"; sourceTree = "<group>"; };
 		DFEDC8167EC0B20343F388E840B794CF /* evernote.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = evernote.png; path = Auth0/Social/evernote.png; sourceTree = "<group>"; };
 		E261A06D925F7C9A4BC6B86129E5F4CE /* A0Errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0Errors.h; path = Lock/Core/A0Errors.h; sourceTree = "<group>"; };
 		E28F5C861ACCCE34154909FB2F9921B7 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		E4FCE6B014C69C099A74FCFCD130E418 /* people@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "people@2x.png"; path = "Auth0/Images/people@2x.png"; sourceTree = "<group>"; };
 		E4FFAF42E8F3FC4B5B199BC96061AA68 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		E60B7F71D3335A2BDCCC41872AFB033B /* shopify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "shopify@2x.png"; path = "Auth0/Social/shopify@2x.png"; sourceTree = "<group>"; };
-		E61B58A73D83139399A9A6B21C1EB3A6 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64F708449EE4D451223C6113DE15276 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		E6D3F8435F60E29F5F11E6892B0C054A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		E6D400CD9E739AF427A65E8F46E37D73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -1053,6 +1062,7 @@
 		F9CC83899B43CC5C568CD70D2662840A /* touchid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "touchid@2x.png"; path = "Auth0/Images/touchid@2x.png"; sourceTree = "<group>"; };
 		F9CF43C60B9A5CF0AB0E2887F2A75D89 /* amazon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amazon@2x.png"; path = "Auth0/Social/amazon@2x.png"; sourceTree = "<group>"; };
 		FA539786BC95D2AE5AE200D619E75DED /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		FA69719FEEE2EAE88C350D83C2730ADE /* libSimpleKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7B52FC28AC7984116A9ADB02C37094 /* A0IdentityProviderCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0IdentityProviderCredentials.h; path = Lock/Core/A0IdentityProviderCredentials.h; sourceTree = "<group>"; };
 		FAA7B18121FF5F07AF19DE252D4D875C /* A0WebViewAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0WebViewAuthenticator.m; path = Lock/WebView/A0WebViewAuthenticator.m; sourceTree = "<group>"; };
 		FB06053532C0308D393699613B9D120D /* A0DatabaseLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0DatabaseLoginViewController.h; path = Lock/UI/Private/A0DatabaseLoginViewController.h; sourceTree = "<group>"; };
@@ -1060,9 +1070,9 @@
 		FCA241F8509BF6C786C91E94249D3414 /* SimpleKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleKeychain.xcconfig; sourceTree = "<group>"; };
 		FCEA5832801E325B1B10749249C9B4C9 /* SimpleKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleKeychain-dummy.m"; sourceTree = "<group>"; };
 		FD552DFC09F686E73508BB0AD2491385 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FD6EB046963E6FCD6266118DD8299231 /* Pods-subscripshare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-subscripshare-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDBD5F1A4B619F09797DF4E8E1695945 /* linkedin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "linkedin@3x.png"; path = "Auth0/Social/linkedin@3x.png"; sourceTree = "<group>"; };
 		FDEA2FEC0A1D5DD3B69FF52356B3E193 /* lock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lock@3x.png"; path = "Auth0/Images/lock@3x.png"; sourceTree = "<group>"; };
-		FF4E1819A3F99E6E11B5EE415B606350 /* Pods-subscripshare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-subscripshare-resources.sh"; sourceTree = "<group>"; };
 		FF672E82DF8700CE616E5F75E5C9A5A1 /* exact@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "exact@3x.png"; path = "Auth0/Social/exact@3x.png"; sourceTree = "<group>"; };
 		FFB8ED2A26A789CC14777F042979D081 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1136,6 +1146,14 @@
 				B4F93058FD67BD47FCEC06DDE7AAE8F9 /* Foundation.framework in Frameworks */,
 				63CD4327C91257CC46F5EFA143FC9473 /* LocalAuthentication.framework in Frameworks */,
 				B1636417476F79024BA950F84CC85CF9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D09137038B0F91CD1C2D0FEFC6EE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AEC9FFE2F70A67F13DCA9184BEA4BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,6 +1505,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		43757C652ED2F455743A50ED75580A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B619142197448D3914CE25FFAAE2EE /* Auth0.bundle */,
+				0834F5F27FC25F9C8F21992960A7C521 /* libAFNetworking.a */,
+				9B9D6A4C575432C9B4FF3CA712633C9E /* libCocoaLumberjack.a */,
+				BA635E601BC0E99E7871B0AD4D9C208B /* libLock.a */,
+				D04D336085B88C844C7CC0638241BD80 /* libMasonry.a */,
+				A6FE389DA88951DEC100473EC94524E3 /* libPods-subscripshare.a */,
+				8B010E4743E824CC31E13C64E7624384 /* libPods-subscripshareTests.a */,
+				FA69719FEEE2EAE88C350D83C2730ADE /* libSimpleKeychain.a */,
+				06D28C6CB3C137468D7623D577C37A30 /* libTouchIDAuth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		460F122425CD41A7ADB9215DFFA2A9F3 /* TouchID */ = {
 			isa = PBXGroup;
 			children = (
@@ -1538,19 +1572,13 @@
 			path = Lock;
 			sourceTree = "<group>";
 		};
-		6918F6719964FE33A80ED335E800A3B4 /* Pods-subscripshare */ = {
+		5F2AC5BBF718662B158187D0356F8381 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45B11BC545B5D35A12A1FA3C170BC8CB /* Pods-subscripshare-acknowledgements.markdown */,
-				9DE2C99164FB579580B913E46AC4C6B5 /* Pods-subscripshare-acknowledgements.plist */,
-				DFEBC73DE4BE2F2B2566C9212908E6F3 /* Pods-subscripshare-dummy.m */,
-				AFE7150F004E5C62568C14A052540824 /* Pods-subscripshare-frameworks.sh */,
-				FF4E1819A3F99E6E11B5EE415B606350 /* Pods-subscripshare-resources.sh */,
-				CDEBECA44E49D65E53F1992F722D06DA /* Pods-subscripshare.debug.xcconfig */,
-				A941201168A94522F03759FF2E230FFC /* Pods-subscripshare.release.xcconfig */,
+				D47A4582C247845D9E71CA8156928FE0 /* Pods-subscripshare */,
+				BF0915569F7FE1F25A9B1CB8665008B8 /* Pods-subscripshareTests */,
 			);
-			name = "Pods-subscripshare";
-			path = "Target Support Files/Pods-subscripshare";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		726578FF680362B015814862F7C83705 /* UI */ = {
@@ -1660,8 +1688,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
 				27D8C259297FD8E9D2CA6903139BF1D1 /* Pods */,
-				C030D5076C26D527636AFF63F8BDB87E /* Products */,
-				D91B548B7737FE671A982F2A793D2330 /* Targets Support Files */,
+				43757C652ED2F455743A50ED75580A6C /* Products */,
+				5F2AC5BBF718662B158187D0356F8381 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1774,6 +1802,21 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		BF0915569F7FE1F25A9B1CB8665008B8 /* Pods-subscripshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C2E3954A9028A04C96D394DA4A90A /* Pods-subscripshareTests-acknowledgements.markdown */,
+				1305A2FC7B0334BC27056D4E57141EAC /* Pods-subscripshareTests-acknowledgements.plist */,
+				54527E00CF8941A51D197E3C64A9B0F5 /* Pods-subscripshareTests-dummy.m */,
+				66EB91B390070565196E60EC1AFBFD47 /* Pods-subscripshareTests-frameworks.sh */,
+				C402A7E07A6CFDBCA2B30819F4B40CAE /* Pods-subscripshareTests-resources.sh */,
+				0DE79BF99DB1A1C4FBC351EA62A48EA5 /* Pods-subscripshareTests.debug.xcconfig */,
+				800D22A587080BF851E4C08EBD28CF4F /* Pods-subscripshareTests.release.xcconfig */,
+			);
+			name = "Pods-subscripshareTests";
+			path = "Target Support Files/Pods-subscripshareTests";
+			sourceTree = "<group>";
+		};
 		BF5FC8E88119669840601565557D8C04 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -1792,21 +1835,6 @@
 				26311831FAB303703F6379483BFCAFAB /* AFURLResponseSerialization.m */,
 			);
 			name = Serialization;
-			sourceTree = "<group>";
-		};
-		C030D5076C26D527636AFF63F8BDB87E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9A15DB3C05B653187FEA71C8F45044D /* Auth0.bundle */,
-				917B52D5821CB3B6106D75E35AABE8A5 /* libAFNetworking.a */,
-				B18191D6F0789BF02DD612440F76DFCA /* libCocoaLumberjack.a */,
-				23628ED9905539A0B94672C80DEC85DD /* libLock.a */,
-				E61B58A73D83139399A9A6B21C1EB3A6 /* libMasonry.a */,
-				7E868D61CA6B90DCEBEBCB06622724E6 /* libPods-subscripshare.a */,
-				4BDE4990CB3F73BE1AA5F457416FE93A /* libSimpleKeychain.a */,
-				2A59E490AE4B2C554B14116C311CAD3F /* libTouchIDAuth.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D1888456220E896F29CDA8E717F12915 /* CoreUI */ = {
@@ -1855,12 +1883,19 @@
 			name = WebView;
 			sourceTree = "<group>";
 		};
-		D91B548B7737FE671A982F2A793D2330 /* Targets Support Files */ = {
+		D47A4582C247845D9E71CA8156928FE0 /* Pods-subscripshare */ = {
 			isa = PBXGroup;
 			children = (
-				6918F6719964FE33A80ED335E800A3B4 /* Pods-subscripshare */,
+				FD6EB046963E6FCD6266118DD8299231 /* Pods-subscripshare-acknowledgements.markdown */,
+				B57C0F64056389BBFB9E89CED67F8C97 /* Pods-subscripshare-acknowledgements.plist */,
+				5329F1946828CFE505E4837A1B8C755C /* Pods-subscripshare-dummy.m */,
+				05C7A30C8F81CA1FCA8EFA05C8897913 /* Pods-subscripshare-frameworks.sh */,
+				99B1FD150F95C4C08FEB4D4CF36E4B13 /* Pods-subscripshare-resources.sh */,
+				9461310FDE29020C5EA6372C87FF7D58 /* Pods-subscripshare.debug.xcconfig */,
+				64F072EA8D3780C10CD457DA238D5D00 /* Pods-subscripshare.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-subscripshare";
+			path = "Target Support Files/Pods-subscripshare";
 			sourceTree = "<group>";
 		};
 		DAC3C56AAE4B1E4159A178AFEE5EE7F6 /* NSURLSession */ = {
@@ -2156,7 +2191,7 @@
 			);
 			name = CocoaLumberjack;
 			productName = CocoaLumberjack;
-			productReference = B18191D6F0789BF02DD612440F76DFCA /* libCocoaLumberjack.a */;
+			productReference = 9B9D6A4C575432C9B4FF3CA712633C9E /* libCocoaLumberjack.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6F72276A9DDAFD75732C63CB3C64B1F2 /* SimpleKeychain */ = {
@@ -2173,7 +2208,7 @@
 			);
 			name = SimpleKeychain;
 			productName = SimpleKeychain;
-			productReference = 4BDE4990CB3F73BE1AA5F457416FE93A /* libSimpleKeychain.a */;
+			productReference = FA69719FEEE2EAE88C350D83C2730ADE /* libSimpleKeychain.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8844E1C628CEF484CF917E54D62A4C7A /* TouchIDAuth */ = {
@@ -2191,7 +2226,7 @@
 			);
 			name = TouchIDAuth;
 			productName = TouchIDAuth;
-			productReference = 2A59E490AE4B2C554B14116C311CAD3F /* libTouchIDAuth.a */;
+			productReference = 06D28C6CB3C137468D7623D577C37A30 /* libTouchIDAuth.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8A79E86C26F51423BD45C1523F7F1BAC /* Lock */ = {
@@ -2214,7 +2249,7 @@
 			);
 			name = Lock;
 			productName = Lock;
-			productReference = 23628ED9905539A0B94672C80DEC85DD /* libLock.a */;
+			productReference = BA635E601BC0E99E7871B0AD4D9C208B /* libLock.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		928353533005A4198EBDA5B700D37B64 /* AFNetworking */ = {
@@ -2231,7 +2266,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 917B52D5821CB3B6106D75E35AABE8A5 /* libAFNetworking.a */;
+			productReference = 0834F5F27FC25F9C8F21992960A7C521 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9E675C7EE4956AE603ED4562F0F79044 /* Pods-subscripshare */ = {
@@ -2253,7 +2288,7 @@
 			);
 			name = "Pods-subscripshare";
 			productName = "Pods-subscripshare";
-			productReference = 7E868D61CA6B90DCEBEBCB06622724E6 /* libPods-subscripshare.a */;
+			productReference = A6FE389DA88951DEC100473EC94524E3 /* libPods-subscripshare.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C9D2D9A724EA51BCCD33AB9AE61009ED /* Masonry */ = {
@@ -2270,7 +2305,23 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = E61B58A73D83139399A9A6B21C1EB3A6 /* libMasonry.a */;
+			productReference = D04D336085B88C844C7CC0638241BD80 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE3E51B1A4B59CDEA138C3EB36D7AF8C /* Pods-subscripshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEEAEE4F5546B143C791D106AC160BB /* Build configuration list for PBXNativeTarget "Pods-subscripshareTests" */;
+			buildPhases = (
+				E03B0FB85573AA2989A302049B5135A8 /* Sources */,
+				A7D09137038B0F91CD1C2D0FEFC6EE13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-subscripshareTests";
+			productName = "Pods-subscripshareTests";
+			productReference = 8B010E4743E824CC31E13C64E7624384 /* libPods-subscripshareTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E266EFECDABA7ABFA11CEDC305EB78C3 /* Lock-Auth0 */ = {
@@ -2287,7 +2338,7 @@
 			);
 			name = "Lock-Auth0";
 			productName = "Lock-Auth0";
-			productReference = D9A15DB3C05B653187FEA71C8F45044D /* Auth0.bundle */;
+			productReference = B7B619142197448D3914CE25FFAAE2EE /* Auth0.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -2307,7 +2358,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C030D5076C26D527636AFF63F8BDB87E /* Products */;
+			productRefGroup = 43757C652ED2F455743A50ED75580A6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2317,6 +2368,7 @@
 				E266EFECDABA7ABFA11CEDC305EB78C3 /* Lock-Auth0 */,
 				C9D2D9A724EA51BCCD33AB9AE61009ED /* Masonry */,
 				9E675C7EE4956AE603ED4562F0F79044 /* Pods-subscripshare */,
+				DE3E51B1A4B59CDEA138C3EB36D7AF8C /* Pods-subscripshareTests */,
 				6F72276A9DDAFD75732C63CB3C64B1F2 /* SimpleKeychain */,
 				8844E1C628CEF484CF917E54D62A4C7A /* TouchIDAuth */,
 			);
@@ -2669,6 +2721,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E03B0FB85573AA2989A302049B5135A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8BB0D08EC05060CF1E028C3EDE15C2 /* Pods-subscripshareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2818,7 +2878,7 @@
 		};
 		3C73A2CA04F387CC2809EA18507591B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEBECA44E49D65E53F1992F722D06DA /* Pods-subscripshare.debug.xcconfig */;
+			baseConfigurationReference = 9461310FDE29020C5EA6372C87FF7D58 /* Pods-subscripshare.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -2881,7 +2941,7 @@
 		};
 		3FB832646BA5A166F6AB6F4CC925B3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A941201168A94522F03759FF2E230FFC /* Pods-subscripshare.release.xcconfig */;
+			baseConfigurationReference = 64F072EA8D3780C10CD457DA238D5D00 /* Pods-subscripshare.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2979,6 +3039,48 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		9597CED355AAD4048D5772D0D2F8A549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800D22A587080BF851E4C08EBD28CF4F /* Pods-subscripshareTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC8FB8E2A0F8890FC934B34D808235B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE79BF99DB1A1C4FBC351EA62A48EA5 /* Pods-subscripshareTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		BB3983F93907DF79EE62AD612BAB4B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3223,6 +3325,15 @@
 			buildConfigurations = (
 				BF80927F219F4544039E5B692A9CBA02 /* Debug */,
 				6BD20D1C41475DD5EB0FF2398C1E9457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEEAEE4F5546B143C791D106AC160BB /* Build configuration list for PBXNativeTarget "Pods-subscripshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8FB8E2A0F8890FC934B34D808235B3 /* Debug */,
+				9597CED355AAD4048D5772D0D2F8A549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
