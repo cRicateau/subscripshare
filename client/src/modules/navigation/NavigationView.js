@@ -38,9 +38,10 @@ const NavigationView = React.createClass({
       <NavigationHeader
         {...sceneProps}
         onNavigateBack={this.props.onNavigateBack}
+        style={styles.header}
         renderTitleComponent={() => {
           return (
-            <NavigationHeader.Title>
+            <NavigationHeader.Title textStyle={styles.textHeader}>
               {sceneProps.scene.route.title}
             </NavigationHeader.Title>
           );
@@ -67,15 +68,15 @@ const NavigationView = React.createClass({
           key={'stack_' + tabKey}
           onNavigateBack={this.props.onNavigateBack}
           navigationState={scenes}
-          renderOverlay={this.renderHeader}
+          renderHeader={this.renderHeader}
           renderScene={this.renderScene}
         />
-        <TabBar
+        {/*<TabBar
           height={TAB_BAR_HEIGHT}
           tabs={tabs}
           currentTabIndex={tabs.index}
           switchTab={this.props.switchTab}
-        />
+        />*/}
       </View>
     );
   }
@@ -87,8 +88,14 @@ const styles = StyleSheet.create({
   },
   sceneContainer: {
     flex: 1,
-    marginTop: APP_BAR_HEIGHT,
-    marginBottom: TAB_BAR_HEIGHT
+    // marginBottom: TAB_BAR_HEIGHT
+  },
+  textHeader: {
+    fontSize: 20,
+    color: 'white'
+  },
+  header: {
+    backgroundColor: '#2F4050'
   }
 });
 

@@ -39,15 +39,15 @@ const initialState = fromJS({
   },
   GroupTab: {
     index: 0,
-    routes: [{key: 'Group', title: 'Groups'}]
+    routes: [{key: 'Group', title: 'Mes Groupes'}]
   },
   Group: {
     index: 0,
-    routes: [{key: 'Subscription', title: 'Subscriptions'}]
+    routes: [{key: 'Subscription', title: 'Mes abonnements'}]
   },
   Subscription: {
     index: 0,
-    routes: [{key: 'SubscriptionItem', title: 'SubscriptionItem'}]
+    routes: [{key: 'SubscriptionItem', title: 'Détails'}]
   }
 });
 

@@ -79,7 +79,6 @@ const styles = StyleSheet.create({
   },
   itemsContainer: {
     flex: 1,
-    marginTop: 64,
     backgroundColor: 'white',
     flexDirection: 'column',
   },
