@@ -34,7 +34,7 @@ const initialState = fromJS({
   tabs: {
     index: 0,
     routes: [
-      {key: 'GroupTab', title: 'Mes groupes'},
+      {key: 'GroupTab', title: 'Mes groupes'}
     ]
   },
   GroupTab: {

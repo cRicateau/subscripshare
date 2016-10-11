@@ -81,7 +81,6 @@ const styles = StyleSheet.create({
   },
   groupsContainer: {
     flex: 1,
-    marginTop: 64,
     backgroundColor: 'white',
     flexDirection: 'column',
   },
@@ -114,7 +113,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   spinner: {
-    marginTop: 300
+    marginTop: 150
   },
   image: {
     width: 100
