@@ -25,7 +25,6 @@ export default function AppRouter(props) {
   }
 
   if (key === 'Group') {
-    console.log('group container');
     return <GroupViewContainer />;
   }
 

@@ -3,15 +3,20 @@ import {
   NavigationExperimental,
   View,
   Platform,
-  StyleSheet
+  StyleSheet,
+  Text,
+  TouchableOpacity
 } from 'react-native';
 const {
   CardStack: NavigationCardStack,
   Header: NavigationHeader,
   PropTypes: NavigationPropTypes
 } = NavigationExperimental;
+
 import AppRouter from '../AppRouter';
 import TabBar from '../../components/TabBar';
+import TabBarButton from '../../components/TabBarButton';
+import HeaderRightButton from '../../components/HeaderRightButton';
 
 // Height duplicated from React Native NavigationHeader component
 const APP_BAR_HEIGHT = Platform.OS === 'ios' ? 64 : 56;
@@ -34,11 +39,20 @@ const NavigationView = React.createClass({
   // NavigationHeader accepts a prop style
   // NavigationHeader.title accepts a prop textStyle
   renderHeader(sceneProps) {
+    console.log(sceneProps);
     return (
       <NavigationHeader
         {...sceneProps}
         onNavigateBack={this.props.onNavigateBack}
         style={styles.header}
+        renderRightComponent={() => {
+          return (
+            <HeaderRightButton
+              iconName={sceneProps.scene.route.headerRightButton}
+              onPress={console.log}
+            />
+          );
+        }}
         renderTitleComponent={() => {
           return (
             <NavigationHeader.Title textStyle={styles.textHeader}>

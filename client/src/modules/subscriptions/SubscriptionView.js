@@ -4,18 +4,17 @@ import React, {PropTypes} from 'react';
 import {
   ActivityIndicator,
   StyleSheet,
-  Text,
   ScrollView,
-  View,
-  Image,
-  TouchableHighlight
+  View
 } from 'react-native';
+import { List, ListItem, SearchBar } from 'react-native-elements';
 
 const SubscriptionView = React.createClass({
   propTypes: {
     isFetching: PropTypes.bool.isRequired,
     dispatch: PropTypes.func.isRequired,
     selectedGroup: PropTypes.object.isRequired,
+    items: PropTypes.array.isRequired,
   },
 
   componentDidMount() {
@@ -29,35 +28,30 @@ const SubscriptionView = React.createClass({
   },
 
   render() {
-    let displayedItems = this.props.items.map((item) => {
-      if (!item.id) {
-        return;
-      }
-      return (
-        <View key={item.id}>
-          <TouchableHighlight
-            onPress={() => this._selectItem(item)}
-          >
-            <View style={styles.card}>
-              <Image
-                style={styles.thumbnail}
-                source={{uri: item.thumbnail}}
-              />
-              <View style={styles.item}>
-                <Text style={styles.title}>{item.name}</Text>
-                <Text style={styles.description}>{item.description}</Text>
-              </View>
-            </View>
-          </TouchableHighlight>
-        </View>
-      );
-    });
-
+    const items = this.props.items;
     return (
       <ScrollView style={styles.scrollView}>
+        <SearchBar
+          lightTheme
+          onChangeText={console.log}
+          placeholder='Search' />
         {
           !this.props.isFetching &&
-          <View style={styles.itemsContainer}>{displayedItems}</View>
+          <List>
+            {
+              items.map((item, i) => (
+                <ListItem
+                  onPress={() => this._selectItem(item)}
+                  roundAvatar
+                  avatar={{uri: item.thumbnail}}
+                  key={i}
+                  roundAvatar
+                  title={item.name}
+                  subtitle={item.description}
+                />
+              ))
+            }
+          </List>
         }
         {
           this.props.isFetching &&
@@ -77,34 +71,6 @@ const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: 'white'
   },
-  itemsContainer: {
-    flex: 1,
-    backgroundColor: 'white',
-    flexDirection: 'column',
-  },
-  card: {
-    flex: 1,
-    borderColor: '#F1F1F1',
-    borderBottomWidth: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 90,
-    flexDirection: 'row',
-  },
-  item: {
-    flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'column',
-    marginLeft: 10
-  },
-  title: {
-    fontSize: 18,
-    marginBottom: 10
-  },
-  description: {
-    fontSize: 13,
-    color: '#9B9B9B'
-  },
   spinnerContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -112,15 +78,7 @@ const styles = StyleSheet.create({
   },
   spinner: {
     marginTop: 300
-  },
-  image: {
-    width: 100
-  },
-  thumbnail: {
-    height: 90,
-    width: 90
   }
-
 });
 
 export default SubscriptionView;

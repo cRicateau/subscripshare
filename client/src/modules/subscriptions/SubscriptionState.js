@@ -16,7 +16,6 @@ const RECEIVE_SUBSCRIPTIONS_FAILURE = 'RECEIVE_SUBSCRIPTIONS_FAILURE';
 
 // Action creators
 export function requestSubsriptions(groupId) {
-  console.log('groupid', groupId);
   return {
     type: REQUEST_SUBSCRIPTIONS,
     payload: groupId
